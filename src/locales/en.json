@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Geometry in Motion",
+    "intro": "Welcome to the interactive Differential Geometry simulator, where mathematics takes shape and moves through three-dimensional space.",
+    "description1": "This virtual environment was created to offer a new way of visualizing complex curves and surfaces. Here, you can explore geometric structures that usually live only on paper or in imagination, transforming them into immersive visual experiences.",
+    "description2": "Our proposal is to connect theory and visualization. Parametric curves, smooth surfaces, torsion, curvature... all within your reach in a simple, distraction-free interface.",
+    "quote": "“Mathematics is not just numbers; it is a language to describe space and the beauty within it.”"
+  },
+  "header": {
+    "home": "Home",
+    "viewer": "Viewer",
+    "about": "About"
+  }
+}

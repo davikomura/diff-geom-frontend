@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Geometría en Movimiento",
+    "intro": "Bienvenido al simulador interactivo de Geometría Diferencial, donde las matemáticas toman forma y se mueven en el espacio tridimensional.",
+    "description1": "Este entorno virtual fue creado para ofrecer una nueva forma de visualizar curvas y superficies complejas. Aquí puedes explorar estructuras geométricas que normalmente solo existen en el papel o en la imaginación, transformándolas en experiencias visuales inmersivas.",
+    "description2": "Nuestra propuesta es conectar teoría y visualización. Curvas paramétricas, superficies suaves, torsión, curvatura... todo esto a tu alcance en una interfaz simple y sin distracciones.",
+    "quote": "“Las matemáticas no son solo números; son un lenguaje para describir el espacio y la belleza que habita en él.”"
+  },
+  "header": {
+    "home": "Inicio",
+    "viewer": "Visualizador",
+    "about": "Acerca de"
+  }
+}
