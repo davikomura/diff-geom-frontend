@@ -21,5 +21,26 @@
   "footer": {
     "developed": "Desarrollado por",
     "rights": "Todos los derechos reservados."
+  },
+  "viewer": {
+    "title": "Visor de Geometría Diferencial",
+    "subtitle": "Explora superficies clásicas y curvas diferenciables con precisión y estilo.",
+    "generate": "Generar",
+    "loading": "Cargando...",
+    "generating": "Generando geometría diferencial..."
+  },
+  "curves": {
+    "sphere": "Esfera",
+    "torus": "Toro",
+    "enneper": "Enneper",
+    "helicoid": "Helicoide",
+    "hyperbolic_paraboloid": "Paraboloide Hiperbólico",
+    "elliptic_paraboloid": "Paraboloide Elíptico"
+  },
+  "curvatures": {
+    "gaussian": "Gaussiana",
+    "mean": "Media",
+    "principal": "Principales",
+    "normal": "Normal (dirección 1,1)"
   }
 }

@@ -9,7 +9,7 @@ export const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-transparent text-gray-200">
+    <header className="w-full bg-black border-t border-red-600 text-gray-300 shadow-md z-50 relative">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/">
           <span className="text-2xl font-extrabold tracking-tight">
@@ -26,7 +26,7 @@ export const Header = () => {
               {t("header.home")}
             </Link>
             <Link
-              to="/visualizador"
+              to="/viewer"
               className="hover:text-white transition-colors duration-200"
             >
               {t("header.viewer")}
@@ -61,7 +61,7 @@ export const Header = () => {
               {t("header.home")}
             </Link>
             <Link
-              to="/visualizador"
+              to="/viewer"
               className="hover:text-white transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >

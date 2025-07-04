@@ -5,7 +5,7 @@ export const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-full bg-black/90 border-t border-gray-800 text-gray-500 text-sm">
+    <footer className="w-full bg-black border-t border-gray-800 text-gray-500 text-sm">
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
           © {new Date().getFullYear()} GeoSim 3D. {t("footer.developed")}{" "}

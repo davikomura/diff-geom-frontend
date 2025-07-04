@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
 import { Home } from './pages/Home.tsx';
 import { About } from './pages/About.tsx';
+import { ViewerPage } from './pages/ViewerPage.tsx';
 
 const routes = [
   
@@ -16,6 +17,10 @@ const routes = [
         {
           path: "/about",
           element: <About />,
+        },
+        {
+          path: "/viewer",
+          element: <ViewerPage />,
         }
       ],
     }

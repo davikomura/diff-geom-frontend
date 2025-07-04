@@ -21,5 +21,26 @@
   "footer": {
     "developed": "Developed by",
     "rights": "All rights reserved."
+  },
+  "viewer": {
+    "title": "Differential Geometry Viewer",
+    "subtitle": "Explore classical surfaces and differentiable curves with precision and style.",
+    "generate": "Generate",
+    "loading": "Loading...",
+    "generating": "Generating differential geometry..."
+  },
+  "curves": {
+    "sphere": "Sphere",
+    "torus": "Torus",
+    "enneper": "Enneper",
+    "helicoid": "Helicoid",
+    "hyperbolic_paraboloid": "Hyperbolic Paraboloid",
+    "elliptic_paraboloid": "Elliptic Paraboloid"
+  },
+  "curvatures": {
+    "gaussian": "Gaussian",
+    "mean": "Mean",
+    "principal": "Principal",
+    "normal": "Normal (direction 1,1)"
   }
 }
