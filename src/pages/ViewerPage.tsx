@@ -2,9 +2,9 @@ import { useState } from "react";
 import { CurveSelector } from "../components/CurveSelector";
 import { CurvatureSelector } from "../components/CurvatureSelector";
 import { GeometryViewer } from "../components/GeometryViewer";
-import axios from "axios";
 import { Loader2, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { generateCurve } from "../api/curveService";
 
 export function ViewerPage() {
   const { t } = useTranslation();
@@ -17,15 +17,10 @@ export function ViewerPage() {
     setLoading(true);
     setGeometryData(null);
     try {
-      const res = await axios.get("http://localhost:8000/curve/", {
-        params: {
-          curve,
-          curvature,
-          a: 1.0,
-          b: 1.0,
-        },
-      });
-      setGeometryData(res.data);
+      const res = await generateCurve(curve, curvature);
+      console.log("Dados da geometria recebidos:", res);
+      console.log()
+      setGeometryData(res);
     } catch (err) {
       console.error("Erro ao buscar dados da geometria:", err);
     } finally {
@@ -40,9 +35,7 @@ export function ViewerPage() {
           <h1 className="text-5xl font-extrabold tracking-tight leading-tight">
             {t("viewer.title")}
           </h1>
-          <p className="text-gray-400 text-lg">
-            {t("viewer.subtitle")}
-          </p>
+          <p className="text-gray-400 text-lg">{t("viewer.subtitle")}</p>
         </header>
 
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center">
