@@ -10,5 +10,16 @@
     "home": "Inicio",
     "viewer": "Visualizador",
     "about": "Acerca de"
+  },
+  "about": {
+    "title": "Acerca del Simulador",
+    "intro": "Este simulador fue creado para ofrecer una experiencia interactiva en el estudio de la Geometría Diferencial.",
+    "description": "Su objetivo es proporcionar una herramienta educativa que haga que el aprendizaje de curvas y superficies sea más accesible, visual e intuitivo. A través de la exploración 3D, es posible observar propiedades geométricas de forma dinámica.",
+    "tech": "El proyecto combina tecnologías modernas como React, Three.js y TailwindCSS, integrando la visualización computacional con las matemáticas avanzadas en una interfaz minimalista.",
+    "author": "Desarrollado por"
+  },
+  "footer": {
+    "developed": "Desarrollado por",
+    "rights": "Todos los derechos reservados."
   }
 }

@@ -10,5 +10,16 @@
     "home": "Home",
     "viewer": "Viewer",
     "about": "About"
+  },
+  "about": {
+    "title": "About the Simulator",
+    "intro": "This simulator was created to provide an interactive experience for studying Differential Geometry.",
+    "description": "Its goal is to offer an educational tool that makes learning curves and surfaces more accessible, visual, and intuitive. Through 3D exploration, users can dynamically observe geometric properties.",
+    "tech": "The project combines modern technologies such as React, Three.js, and TailwindCSS, integrating computational visualization with advanced mathematics in a minimalist interface.",
+    "author": "Developed by"
+  },
+  "footer": {
+    "developed": "Developed by",
+    "rights": "All rights reserved."
   }
 }

@@ -11,9 +11,11 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-transparent text-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="text-2xl font-extrabold tracking-tight">
-          GeoSim<span className="text-white">3D</span>
-        </span>
+        <Link to="/">
+          <span className="text-2xl font-extrabold tracking-tight">
+            GeoSim<span className="text-white">3D</span>
+          </span>
+        </Link>
 
         <div className="flex items-center gap-4">
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -30,7 +32,7 @@ export const Header = () => {
               {t("header.viewer")}
             </Link>
             <Link
-              to="/sobre"
+              to="/about"
               className="hover:text-white transition-colors duration-200"
             >
               {t("header.about")}
@@ -66,7 +68,7 @@ export const Header = () => {
               {t("header.viewer")}
             </Link>
             <Link
-              to="/sobre"
+              to="/about"
               className="hover:text-white transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
