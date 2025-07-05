@@ -1,15 +1,95 @@
 {
   "home": {
-    "title": "Geometria em Movimento",
-    "intro": "Bem-vindo ao simulador interativo de Geometria Diferencial, onde a matemática ganha forma e movimento no espaço tridimensional.",
-    "description1": "Este ambiente virtual foi criado para oferecer uma nova maneira de visualizar curvas e superfícies complexas. Aqui, você pode explorar estruturas geométricas que normalmente só vivem no papel ou na imaginação, transformando-as em experiências visuais imersivas.",
-    "description2": "Nossa proposta é conectar teoria e visualização. Curvas paramétricas, superfícies suaves, torsão, curvatura... tudo isso ao seu alcance em uma interface simples, sem distrações.",
-    "quote": "“A matemática não é apenas números, é uma linguagem para descrever o espaço e a beleza que nele habita.”"
+    "title": "Explorando a Geometria Diferencial em 3D",
+    "intro": "Bem-vindo ao simulador interativo de Geometria Diferencial, onde conceitos matemáticos ganham forma, profundidade e movimento no espaço tridimensional.",
+    "description1": "Este ambiente virtual foi desenvolvido para proporcionar uma nova perspectiva sobre curvas e superfícies. Aqui, estruturas geométricas complexas, muitas vezes restritas ao papel ou à abstração, tornam-se objetos dinâmicos e visuais, prontos para serem explorados.",
+    "description2": "Nosso objetivo é aproximar a teoria da visualização interativa. Curvas paramétricas, superfícies suaves, curvatura, torsão e outras propriedades geométricas estão ao seu alcance, em uma interface clara e sem distrações.",
+    "quote": "“A matemática é a arte de dar nome e forma às estruturas invisíveis que moldam o mundo.”"
   },
   "header": {
     "home": "Início",
-    "viewer": "Visualizador",
-    "about": "Sobre"
+    "viewer": "Simulador 3D",
+    "learn": "Aprender",
+    "learnBasics": "Fundamentos",
+    "learnAdvanced": "Conceitos Avançados",
+    "about": "Sobre o Projeto"
+  },
+  "learnBasics": {
+    "title": "Introdução à Geometria Diferencial",
+    "intro": "A Geometria Diferencial explora as propriedades de curvas e superfícies usando cálculo e álgebra linear para descrever a geometria do espaço.",
+    "quote": "“A geometria revela a forma do universo.”",
+    "topic1": {
+      "title": "Curvas Parametrizadas",
+      "desc": "Aprenda como representar curvas no plano ou no espaço por meio de funções que associam um parâmetro a cada ponto da curva, facilitando sua análise e visualização."
+    },
+    "topic2": {
+      "title": "Curvas regulares",
+      "desc": "Veja o que caracteriza uma curva diferenciável como regular, com base na não anulação da derivada do vetor posição."
+    },
+    "topic3": {
+      "title": "Comprimento de arco",
+      "desc": "Entenda como calcular o comprimento de uma curva a partir de uma parametrização diferenciável, utilizando integrais definidas."
+    },
+    "topic4": {
+      "title": "Curvatura",
+      "desc": "A curvatura de uma curva parametrizada mede o quanto a curva se desvia de uma linha reta em um ponto, sendo definida como a norma da derivada do vetor tangente unitário em relação ao comprimento de arco."
+    },
+    "topic5": {
+      "title": "Geodésicas",
+      "desc": "Descubra os caminhos mais curtos sobre superfícies, fundamentais na física, geometria e modelagem 3D."
+    },
+    "sectionTitle": "Fundamentos Teóricos Chave",
+    "theory": "A geometria diferencial integra o cálculo ao estudo das formas para analisar curvaturas, torções e estruturas de superfícies. Ela fornece a linguagem matemática para descrever o mundo natural, desde planos simples até variedades curvas complexas.",
+    "theory2": "Compreender esses princípios permite simular superfícies reais com precisão, o que é essencial na análise geoespacial, simulações físicas e gráficos 3D.",
+    "explanations": {
+      "parameterized_curves": {
+        "title": "Curvas Parametrizadas",
+        "paragraph1.1": "Uma curva diferenciável parametrizada é uma aplicação diferenciável ",
+        "paragraph1.2": " de um intervalo aberto ",
+        "paragraph1.3": " da reta real ",
+        "paragraph1.4": " em "
+      },
+      "regular_curves": {
+        "title": "Curvas regulares",
+        "paragraph1.1": "Uma curva diferenciável parametrizada ",
+        "paragraph1.2": " é chamada regular se ",
+        "paragraph1.3": " para todo "
+      },
+      "arc_length": {
+        "title": "Comprimento de arco",
+        "paragraph1.1": "Dado ",
+        "paragraph1.2": ", o comprimento de arco de uma curva parametrizada regular ",
+        "paragraph1.3": ", a partir do ponto ",
+        "paragraph1.4": ", é por definição",
+        "paragraph2.1": "onde ",
+        "paragraph3.1": " é o comprimento do vetor ",
+        "paragraph3.2": ". Como ",
+        "paragraph3.3": ", o comprimento de arco ",
+        "paragraph3.4": " é uma função diferenciável de ",
+        "paragraph3.5": " e "
+      },
+      "curvature": {
+        "title": "Curvatura",
+        "paragraph1.1": "Seja ",
+        "paragraph1.2": " uma curva parametrizada pelo comprimento de arco ",
+        "paragraph1.3": ". O número ",
+        "paragraph1.4": " chama-se curvatura de ",
+        "paragraph1.5": " em "
+      },
+      "geodesics": {
+        "title": "Geodésicas",
+        "paragraph1": "Geodésicas são os caminhos de menor distância em uma superfície. Elas satisfazem a equação:",
+        "paragraph2.1": "Onde ",
+        "paragraph2.2": " representa a derivada covariante. Isso aparece, por exemplo, em trajetórias de satélites no espaço-tempo."
+      }
+    },
+    "references": {
+      "title": "Referências",
+      "items": {
+        "docarmo": "Do Carmo, M. P. Geometria Diferencial de Curvas e Superfícies. Prentice-Hall, 1976.",
+        "pressley": "Pressley, A. Geometria Diferencial Elementar. Springer, 2001."
+      }
+    }
   },
   "about": {
     "title": "Sobre o Simulador",
@@ -42,5 +122,10 @@
     "mean": "Média",
     "principal": "Principais",
     "normal": "Normal (direção 1,1)"
+  },
+  "notFound": {
+    "title": "Oops! Página não encontrada.",
+    "description": "A página que você está procurando não existe ou foi movida.",
+    "cta": "Voltar para o início"
   }
 }

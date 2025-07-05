@@ -1,15 +1,95 @@
 {
   "home": {
-    "title": "Geometría en Movimiento",
-    "intro": "Bienvenido al simulador interactivo de Geometría Diferencial, donde las matemáticas toman forma y se mueven en el espacio tridimensional.",
-    "description1": "Este entorno virtual fue creado para ofrecer una nueva forma de visualizar curvas y superficies complejas. Aquí puedes explorar estructuras geométricas que normalmente solo existen en el papel o en la imaginación, transformándolas en experiencias visuales inmersivas.",
-    "description2": "Nuestra propuesta es conectar teoría y visualización. Curvas paramétricas, superficies suaves, torsión, curvatura... todo esto a tu alcance en una interfaz simple y sin distracciones.",
-    "quote": "“Las matemáticas no son solo números; son un lenguaje para describir el espacio y la belleza que habita en él.”"
+    "title": "Explorando la Geometría Diferencial en 3D",
+    "intro": "Bienvenido al simulador interactivo de Geometría Diferencial, donde los conceptos matemáticos adquieren forma, profundidad y movimiento en el espacio tridimensional.",
+    "description1": "Este entorno virtual ha sido diseñado para ofrecer una nueva perspectiva sobre curvas y superficies. Aquí, las estructuras geométricas complejas—habitualmente confinadas al papel o al pensamiento abstracto—se transforman en objetos dinámicos y visuales, listos para ser explorados.",
+    "description2": "Nuestro objetivo es conectar la teoría con la visualización interactiva. Curvas paramétricas, superficies suaves, curvatura, torsión y otras propiedades geométricas están a tu alcance, presentadas en una interfaz clara y sin distracciones.",
+    "quote": "“Las matemáticas son el arte de nombrar y dar forma a las estructuras invisibles que moldean el mundo.”"
   },
   "header": {
     "home": "Inicio",
-    "viewer": "Visualizador",
-    "about": "Acerca de"
+    "viewer": "Simulador 3D",
+    "learn": "Aprender",
+    "learnBasics": "Fundamentos",
+    "learnAdvanced": "Conceptos Avanzados",
+    "about": "Sobre el Proyecto"
+  },
+  "learnBasics": {
+    "title": "Introducción a la Geometría Diferencial",
+    "intro": "La Geometría Diferencial explora las propiedades de curvas y superficies utilizando cálculo y álgebra lineal para describir la geometría del espacio.",
+    "quote": "“La geometría revela la forma del universo.”",
+    "topic1": {
+      "title": "Curvas y Superficies",
+      "desc": "Comprende cómo se definen matemáticamente las curvas y superficies y cómo pueden representarse en simulaciones 3D."
+    },
+    "topic2": {
+      "title": "Curvas Regulares",
+      "desc": "Descubre qué caracteriza a una curva diferenciable como regular, basada en la no anulación de la derivada del vector posición."
+    },
+    "topic3": {
+      "title": "Longitud de arco",
+      "desc": "Entiende cómo calcular la longitud de una curva a partir de una parametrización diferenciable, utilizando integrales definidas."
+    },
+    "topic4": {
+      "title": "Curvatura",
+      "desc": "La curvatura de una curva parametrizada mide cuánto se desvía la curva de una línea recta en un punto, siendo definida como la norma de la derivada del vector tangente unitario con respecto a la longitud de arco."
+    },
+    "topic5": {
+      "title": "Geodésicas",
+      "desc": "Descubre los caminos más cortos sobre las superficies, fundamentales en física, geometría y modelado 3D."
+    },
+    "sectionTitle": "Fundamentos Teóricos Clave",
+    "theory": "La geometría diferencial integra el cálculo en el estudio de las formas para analizar curvaturas, torsiones y estructuras de superficies. Proporciona el lenguaje matemático para describir el mundo natural, desde planos simples hasta variedades curvas complejas.",
+    "theory2": "Comprender estos principios permite simular superficies reales con precisión, lo cual es esencial en el análisis geoespacial, simulaciones físicas y gráficos 3D.",
+    "explanations": {
+      "parameterized_curves": {
+        "title": "Curvas Parametrizadas",
+        "paragraph1.1": "Una curva parametrizada diferenciable es una aplicación diferenciable ",
+        "paragraph1.2": " de un intervalo abierto ",
+        "paragraph1.3": " de la recta real ",
+        "paragraph1.4": " en "
+      },
+      "regular_curves": {
+        "title": "Curvas Regulares",
+        "paragraph1.1": "Una curva diferenciable parametrizada ",
+        "paragraph1.2": " se llama regular si ",
+        "paragraph1.3": " para todo "
+      },
+      "arc_length": {
+        "title": "Longitud de arco",
+        "paragraph1.1": "Dado ",
+        "paragraph1.2": ", la longitud de arco de una curva parametrizada regular ",
+        "paragraph1.3": ", desde el punto ",
+        "paragraph1.4": ", se define como",
+        "paragraph2.1": "donde ",
+        "paragraph3.1": " es la longitud del vector ",
+        "paragraph3.2": ". Como ",
+        "paragraph3.3": ", la longitud de arco ",
+        "paragraph3.4": " es una función diferenciable de ",
+        "paragraph3.5": " y "
+      },
+      "curvature": {
+        "title": "Curvatura",
+        "paragraph1.1": "Sea ",
+        "paragraph1.2": " una curva parametrizada por la longitud de arco ",
+        "paragraph1.3": ". El número ",
+        "paragraph1.4": " se llama curvatura de ",
+        "paragraph1.5": " en "
+      },
+      "geodesics": {
+        "title": "Geodésicas",
+        "paragraph1": "Las geodésicas son los caminos de menor distancia sobre una superficie. Satisfacen la ecuación:",
+        "paragraph2.1": "Donde ",
+        "paragraph2.2": " representa la derivada covariante. Esto aparece, por ejemplo, en trayectorias de satélites en el espacio-tiempo."
+      }
+    },
+    "references": {
+      "title": "Referencias",
+      "items": {
+      "docarmo": "Do Carmo, M. P. Geometría Diferencial de Curvas y Superficies. Prentice-Hall, 1976.",
+      "pressley": "Pressley, A. Geometría Diferencial Elemental. Springer, 2001."
+      }
+    }
   },
   "about": {
     "title": "Acerca del Simulador",
@@ -42,5 +122,10 @@
     "mean": "Media",
     "principal": "Principales",
     "normal": "Normal (dirección 1,1)"
+  },
+  "notFound": {
+    "title": "¡Ups! Página no encontrada.",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "cta": "Volver al inicio"
   }
 }

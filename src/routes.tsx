@@ -3,12 +3,15 @@ import App from './App.tsx';
 import { Home } from './pages/Home.tsx';
 import { About } from './pages/About.tsx';
 import { ViewerPage } from './pages/ViewerPage.tsx';
+import LearnBasics from './pages/LearnBasics.tsx';
+import NotFoundPage from './pages/NotFoundPage.tsx';
 
 const routes = [
   
     {
       path: "/",
       element: <App />,
+      errorElement: <NotFoundPage />,
       children: [
         {
           path: "/",
@@ -21,6 +24,10 @@ const routes = [
         {
           path: "/viewer",
           element: <ViewerPage />,
+        },
+        {
+          path: "/learn/basics",
+          element: <LearnBasics />,
         }
       ],
     }

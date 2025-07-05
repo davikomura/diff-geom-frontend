@@ -1,15 +1,95 @@
 {
   "home": {
-    "title": "Geometry in Motion",
-    "intro": "Welcome to the interactive Differential Geometry simulator, where mathematics takes shape and moves through three-dimensional space.",
-    "description1": "This virtual environment was created to offer a new way of visualizing complex curves and surfaces. Here, you can explore geometric structures that usually live only on paper or in imagination, transforming them into immersive visual experiences.",
-    "description2": "Our proposal is to connect theory and visualization. Parametric curves, smooth surfaces, torsion, curvature... all within your reach in a simple, distraction-free interface.",
-    "quote": "“Mathematics is not just numbers; it is a language to describe space and the beauty within it.”"
+    "title": "Exploring Differential Geometry in 3D",
+    "intro": "Welcome to the interactive simulator of Differential Geometry, where mathematical concepts take shape, depth, and motion in three-dimensional space.",
+    "description1": "This virtual environment was designed to offer a new perspective on curves and surfaces. Here, complex geometric structures—often confined to paper or abstract thought—become dynamic and visual objects ready for exploration.",
+    "description2": "Our goal is to bridge theory and interactive visualization. Parametric curves, smooth surfaces, curvature, torsion, and other geometric properties are within your reach, presented through a clean and distraction-free interface.",
+    "quote": "“Mathematics is the art of naming and shaping the invisible structures that shape the world.”"
   },
   "header": {
     "home": "Home",
-    "viewer": "Viewer",
-    "about": "About"
+    "viewer": "3D Simulator",
+    "learn": "Learn",
+    "learnBasics": "Fundamentals",
+    "learnAdvanced": "Advanced Concepts",
+    "about": "About the Project"
+  },
+  "learnBasics": {
+    "title": "Introduction to Differential Geometry",
+    "intro": "Differential Geometry explores the properties of curves and surfaces using calculus and linear algebra to describe the geometry of space.",
+    "quote": "“Geometry reveals the shape of the universe.”",
+    "topic1": {
+      "title": "Curves and Surfaces",
+      "desc": "Understand how curves and surfaces are mathematically defined and how they can be represented in 3D simulations."
+    },
+    "topic2": {
+      "title": "Regular Curves",
+      "desc": "Learn what characterizes a differentiable curve as regular, based on the non-vanishing of the derivative of the position vector."
+    },
+    "topic3": {
+      "title": "Arc Length",
+      "desc": "Understand how to calculate the length of a curve from a differentiable parameterization using definite integrals."
+    },
+    "topic4": {
+      "title": "Curvature",
+      "desc": "The curvature of a parameterized curve measures how much the curve deviates from a straight line at a point, defined as the norm of the derivative of the unit tangent vector with respect to the arc length."
+    },
+    "topic5": {
+      "title": "Geodesics",
+      "desc": "Discover the shortest paths on surfaces, fundamental in physics, geometry, and 3D modeling."
+    },
+    "sectionTitle": "Key Theoretical Foundations",
+    "theory": "Differential geometry integrates calculus into the study of shapes to analyze curvature, torsion, and surface structures. It provides the mathematical language to describe the natural world, from simple planes to complex curved manifolds.",
+    "theory2": "Understanding these principles allows for accurate simulation of real surfaces, which is essential in geospatial analysis, physical simulations, and 3D graphics.",
+    "explanations": {
+      "parameterized_curves": {
+        "title": "Parameterized Curves",
+        "paragraph1.1": "A differentiable parameterized curve is a differentiable map ",
+        "paragraph1.2": " from an open interval ",
+        "paragraph1.3": " of the real line ",
+        "paragraph1.4": " into "
+      },
+      "regular_curves": {
+        "title": "Regular Curves",
+        "paragraph1.1": "A differentiable parameterized curve ",
+        "paragraph1.2": " is called regular if ",
+        "paragraph1.3": " for all "
+      },
+      "arc_length": {
+        "title": "Arc Length",
+        "paragraph1.1": "Given ",
+        "paragraph1.2": ", the arc length of a regular parameterized curve ",
+        "paragraph1.3": ", starting from the point ",
+        "paragraph1.4": ", is defined as",
+        "paragraph2.1": "where ",
+        "paragraph3.1": " is the length of the vector ",
+        "paragraph3.2": ". Since ",
+        "paragraph3.3": ", the arc length ",
+        "paragraph3.4": " is a differentiable function of ",
+        "paragraph3.5": " and "
+      },
+      "curvature": {
+        "title": "Curvature",
+        "paragraph1.1": "Let ",
+        "paragraph1.2": " be a curve parameterized by the arc length ",
+        "paragraph1.3": ". The number ",
+        "paragraph1.4": " is called the curvature of ",
+        "paragraph1.5": " at "
+      },
+      "geodesics": {
+        "title": "Geodesics",
+        "paragraph1": "Geodesics are the shortest paths on a surface. They satisfy the equation:",
+        "paragraph2.1": "Where ",
+        "paragraph2.2": " represents the covariant derivative. This appears, for example, in satellite trajectories in spacetime."
+      }
+    },
+    "references": {
+      "title": "References",
+      "items": {
+      "docarmo": "Do Carmo, M. P. Differential Geometry of Curves and Surfaces. Prentice-Hall, 1976.",
+      "pressley": "Pressley, A. Elementary Differential Geometry. Springer, 2001."
+      }
+    }
   },
   "about": {
     "title": "About the Simulator",
@@ -42,5 +122,10 @@
     "mean": "Mean",
     "principal": "Principal",
     "normal": "Normal (direction 1,1)"
+  },
+  "notFound": {
+    "title": "Oops! Page not found.",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to Home"
   }
 }
