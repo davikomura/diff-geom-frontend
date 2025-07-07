@@ -35,6 +35,10 @@
       "desc": "A curvatura de uma curva parametrizada mede o quanto a curva se desvia de uma linha reta em um ponto, sendo definida como a norma da derivada do vetor tangente unitário em relação ao comprimento de arco."
     },
     "topic5": {
+      "title": "Torção",
+      "desc": "A torção de uma curva mede a variação do vetor normal unitário ao longo da curva, essencial para entender a geometria tridimensional."
+    },
+    "topic6": {
       "title": "Geodésicas",
       "desc": "Descubra os caminhos mais curtos sobre superfícies, fundamentais na física, geometria e modelagem 3D."
     },
@@ -75,6 +79,16 @@
         "paragraph1.3": ". O número ",
         "paragraph1.4": " chama-se curvatura de ",
         "paragraph1.5": " em "
+      },
+      "torsion": {
+        "title": "Torção",
+        "paragraph1.1": "Seja ",
+        "paragraph1.2": " uma curva parametrizada pelo comprimento de arco ",
+        "paragraph1.3": " tal que ",
+        "paragraph1.4": ". O número ",
+        "paragraph1.5": " definido por ",
+        "paragraph1.6": " é chamado torção de ",
+        "paragraph1.7": " em "
       },
       "geodesics": {
         "title": "Geodésicas",

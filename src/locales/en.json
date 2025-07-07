@@ -35,6 +35,10 @@
       "desc": "The curvature of a parameterized curve measures how much the curve deviates from a straight line at a point, defined as the norm of the derivative of the unit tangent vector with respect to the arc length."
     },
     "topic5": {
+      "title": "Torsion",
+      "desc": "The torsion of a curve measures the variation of the unit normal vector along the curve, essential for understanding three-dimensional geometry."
+    },
+    "topic6": {
       "title": "Geodesics",
       "desc": "Discover the shortest paths on surfaces, fundamental in physics, geometry, and 3D modeling."
     },
@@ -75,6 +79,16 @@
         "paragraph1.3": ". The number ",
         "paragraph1.4": " is called the curvature of ",
         "paragraph1.5": " at "
+      },
+      "torsion": {
+        "title": "Torsion",
+        "paragraph1.1": "Let ",
+        "paragraph1.2": " be a curve parameterized by the arc length ",
+        "paragraph1.3": " such that ",
+        "paragraph1.4": ". The number ",
+        "paragraph1.5": " defined by ",
+        "paragraph1.6": " is called the torsion of ",
+        "paragraph1.7": " at "
       },
       "geodesics": {
         "title": "Geodesics",

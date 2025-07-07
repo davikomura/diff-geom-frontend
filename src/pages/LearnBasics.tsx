@@ -66,6 +66,11 @@ export const LearnBasics = () => {
           <ConceptCard
             title={t("learnBasics.topic5.title")}
             description={t("learnBasics.topic5.desc")}
+            anchor="torsion"
+          />
+          <ConceptCard
+            title={t("learnBasics.topic6.title")}
+            description={t("learnBasics.topic6.desc")}
             anchor="geodesicas"
           />
         </section>
@@ -130,6 +135,16 @@ export const LearnBasics = () => {
             </h3>
             <p className="text-gray-300 leading-relaxed mb-3">
               {t("learnBasics.explanations.curvature.paragraph1.1")}{" "} <InlineMath math="\alpha : I \rightarrow \mathbb{R}^3" /> {t("learnBasics.explanations.curvature.paragraph1.2")}{" "} <InlineMath math="s \in I" /> {t("learnBasics.explanations.curvature.paragraph1.3")}{" "} <InlineMath math="|\alpha''(s)| = k(s)" /> {t("learnBasics.explanations.curvature.paragraph1.4")}{" "} <InlineMath math="\alpha" /> {t("learnBasics.explanations.curvature.paragraph1.5")}{" "} <InlineMath math="s" />.
+            </p>
+            <hr className="my-12 border-gray-700" />
+          </div>
+
+          <div id="torsion" className="scroll-mt-24">
+            <h3 className="text-3xl font-semibold text-red-500 mb-4 border-l-4 border-red-500 pl-3">
+              {t("learnBasics.explanations.torsion.title")}
+            </h3>
+            <p className="text-gray-300 leading-relaxed mb-3">
+              {t("learnBasics.explanations.torsion.paragraph1.1")}{" "} <InlineMath math="\alpha : I \rightarrow \mathbb{R}^3" /> {t("learnBasics.explanations.torsion.paragraph1.2")}{" "} <InlineMath math="s" /> {t("learnBasics.explanations.torsion.paragraph1.3")}{" "} <InlineMath math="\alpha''(s) \neq 0, s \in I" /> {t("learnBasics.explanations.torsion.paragraph1.4")}{" "} <InlineMath math="\tau(s)" /> {t("learnBasics.explanations.torsion.paragraph1.5")}{" "} <InlineMath math="b'(s) = \tau(s)n(s)" /> {t("learnBasics.explanations.torsion.paragraph1.6")}{" "} <InlineMath math="\alpha" /> {t("learnBasics.explanations.torsion.paragraph1.7")}{" "} <InlineMath math="s" />.
             </p>
             <hr className="my-12 border-gray-700" />
           </div>
