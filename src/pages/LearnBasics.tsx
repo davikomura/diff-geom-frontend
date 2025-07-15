@@ -68,11 +68,11 @@ export const LearnBasics = () => {
             description={t("learnBasics.topic5.desc")}
             anchor="torsion"
           />
-          <ConceptCard
+          {/* <ConceptCard
             title={t("learnBasics.topic6.title")}
             description={t("learnBasics.topic6.desc")}
             anchor="geodesicas"
-          />
+          /> */}
         </section>
 
         <section className="max-w-5xl space-y-28 px-4 md:px-0">
@@ -149,7 +149,7 @@ export const LearnBasics = () => {
             <hr className="my-12 border-gray-700" />
           </div>
 
-          <div id="geodesicas" className="scroll-mt-24">
+          {/* <div id="geodesicas" className="scroll-mt-24">
             <h3 className="text-3xl font-semibold text-red-500 mb-4 border-l-4 border-red-500 pl-3">
               {t("learnBasics.explanations.geodesics.title")}
             </h3>
@@ -162,7 +162,7 @@ export const LearnBasics = () => {
               <InlineMath math="\frac{D}{dt}" />{" "}
               {t("learnBasics.explanations.geodesics.paragraph2.2")}
             </p>
-          </div>
+          </div> */}
           <div id="referencias" className="scroll-mt-24">
             <h3 className="text-3xl font-semibold text-red-500 mb-4 border-l-4 border-red-500 pl-3">
               {t("learnBasics.references.title")}

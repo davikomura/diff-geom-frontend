@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const { t } = useTranslation();
 
   return (
@@ -31,33 +30,26 @@ export const Header = () => {
               {t("header.viewer")}
             </Link>
 
-            {/* Dropdown com clique */}
-            <div className="relative">
-              <button
-                className="flex items-center hover:text-white transition-colors duration-200"
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              >
-                {t("header.learn")} <ChevronDown className={`ml-1 w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : "rotate-0"}`} />
-              </button>
+            <div className="relative group">
+              <div className="flex items-center cursor-pointer text-sm font-medium hover:text-white transition-colors duration-200">
+                <span>{t("header.learn")}</span>
+                <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+              </div>
 
-              {isDropdownOpen && (
-                <div className="absolute left-0 mt-2 bg-gray-800/90 border border-gray-700 rounded-md shadow-lg animate-fade-in p-2 w-48 z-50">
-                  <Link
-                    to="/learn/basics"
-                    className="block px-4 py-2 text-sm rounded hover:bg-gray-700 hover:text-white transition-colors duration-200"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    {t("header.learnBasics")}
-                  </Link>
-                  <Link
-                    to="/learn/advanced"
-                    className="block px-4 py-2 text-sm rounded hover:bg-gray-700 hover:text-white transition-colors duration-200"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    {t("header.learnAdvanced")}
-                  </Link>
-                </div>
-              )}
+              <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 absolute left-0 mt-2 bg-gray-800/90 border border-gray-700 rounded-md shadow-lg p-2 w-48 z-50">
+                <Link
+                  to="/learn/basics"
+                  className="block px-4 py-2 text-sm rounded hover:bg-gray-700 hover:text-white transition-colors duration-200"
+                >
+                  {t("header.learnBasics")}
+                </Link>
+                <Link
+                  to="/learn/advanced"
+                  className="block px-4 py-2 text-sm rounded hover:bg-gray-700 hover:text-white transition-colors duration-200"
+                >
+                  {t("header.learnAdvanced")}
+                </Link>
+              </div>
             </div>
 
             <Link
@@ -73,7 +65,11 @@ export const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
 
           <LanguageDropdown />
@@ -98,7 +94,9 @@ export const Header = () => {
               {t("header.viewer")}
             </Link>
             <div>
-              <span className="block text-gray-400 mb-1">{t("header.learn")}</span>
+              <span className="block text-gray-400 mb-1">
+                {t("header.learn")}
+              </span>
               <div className="flex flex-col pl-4">
                 <Link
                   to="/learn/basics"
