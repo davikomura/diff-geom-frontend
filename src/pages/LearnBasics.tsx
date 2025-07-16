@@ -68,11 +68,11 @@ export const LearnBasics = () => {
             description={t("learnBasics.topic5.desc")}
             anchor="torsion"
           />
-          {/* <ConceptCard
+          <ConceptCard
             title={t("learnBasics.topic6.title")}
             description={t("learnBasics.topic6.desc")}
-            anchor="geodesicas"
-          /> */}
+            anchor="frenetFrame"
+          />
         </section>
 
         <section className="max-w-5xl space-y-28 px-4 md:px-0">
@@ -149,20 +149,28 @@ export const LearnBasics = () => {
             <hr className="my-12 border-gray-700" />
           </div>
 
-          {/* <div id="geodesicas" className="scroll-mt-24">
+          <div id="frenetFrame" className="scroll-mt-24">
             <h3 className="text-3xl font-semibold text-red-500 mb-4 border-l-4 border-red-500 pl-3">
-              {t("learnBasics.explanations.geodesics.title")}
+              {t("learnBasics.explanations.frenetFrame.title")}
             </h3>
             <p className="text-gray-300 leading-relaxed mb-3">
-              {t("learnBasics.explanations.geodesics.paragraph1")}
+              {t("learnBasics.explanations.frenetFrame.paragraph1.1")}{" "} <InlineMath math="\alpha (s)"/>{t("learnBasics.explanations.frenetFrame.paragraph1.2")}{" "}<InlineMath math="s" /> {t("learnBasics.explanations.frenetFrame.paragraph1.3")}
             </p>
-            <BlockMath math="\frac{D\dot{\gamma}}{dt} = 0" />
             <p className="text-gray-400 mt-3 leading-relaxed">
-              {t("learnBasics.explanations.geodesics.paragraph2.1")}{" "}
-              <InlineMath math="\frac{D}{dt}" />{" "}
-              {t("learnBasics.explanations.geodesics.paragraph2.2")}
+              <li>
+                <InlineMath math="t(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph2.1")}{" "} <InlineMath math="t(s) = \alpha '(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph2.2")}
+              </li>
+              <li>
+                <InlineMath math="n(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph3.1")}{" "} <InlineMath math="t(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph3.2")}
+              </li>
+              <li>
+                <InlineMath math="b(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph4.1")}{" "} <InlineMath math="b(s) = t(s) \times n(s)" /> {t("learnBasics.explanations.frenetFrame.paragraph4.2")}
+              </li>
             </p>
-          </div> */}
+            <p className="text-gray-300 leading-relaxed mb-3">
+              {t("learnBasics.explanations.frenetFrame.paragraph5.1")}{" "} <InlineMath math="\{t(s), n(s), b(s)\}" /> {t("learnBasics.explanations.frenetFrame.paragraph5.2")}
+            </p>
+          </div>
           <div id="referencias" className="scroll-mt-24">
             <h3 className="text-3xl font-semibold text-red-500 mb-4 border-l-4 border-red-500 pl-3">
               {t("learnBasics.references.title")}

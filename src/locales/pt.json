@@ -92,9 +92,17 @@
       },
       "frenetFrame": {
         "title": "Triedo de Frenet",
-        "paragraph1": "O triedo ",
-        "paragraph2.1": "Onde ",
-        "paragraph2.2": " representa a derivada covariante. Isso aparece, por exemplo, em trajetórias de satélites no espaço-tempo."
+        "paragraph1.1": "Seja ",
+        "paragraph1.2": " uma curva regular e suficientemente suave no espaço tridimensional, parametrizada pelo comprimento de arco ",
+        "paragraph1.3": ". A cada ponto da curva, associamos três vetores unitários e mutuamente ortogonais que constituem a chamada base de Frenet, ou triedro de Frenet:",
+        "paragraph2.1": ": vetor tangente unitário, dado por ",
+        "paragraph2.2": ", indica a direção instantânea da curva;",
+        "paragraph3.1": ": vetor normal principal, orientado na direção da derivada de ",
+        "paragraph3.2": ", define o plano de curvatura;",
+        "paragraph4.1": ": vetor binormal, definido como ",
+        "paragraph4.2": ", completa a base ortonormal no espaço.",
+        "paragraph5.1": "O triedro ",
+        "paragraph5.2": " forma uma referência móvel ao longo da curva, adaptada à sua geometria local."
       }
     },
     "references": {

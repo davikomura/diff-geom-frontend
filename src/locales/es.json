@@ -92,9 +92,17 @@
       },
       "frenetFrame": {
         "title": "Triedro de Frenet",
-        "paragraph1": "Las geodésicas son los caminos de menor distancia sobre una superficie. Satisfacen la ecuación:",
-        "paragraph2.1": "Donde ",
-        "paragraph2.2": " representa la derivada covariante. Esto aparece, por ejemplo, en trayectorias de satélites en el espacio-tiempo."
+        "paragraph1.1": "Sea ",
+        "paragraph1.2": " una curva regular y suficientemente suave en el espacio tridimensional, parametrizada por la longitud de arco ",
+        "paragraph1.3": ". En cada punto de la curva, asociamos tres vectores unitarios y mutuamente ortogonales que constituyen la llamada base de Frenet, o triedro de Frenet:",
+        "paragraph2.1": ": vector tangente unitario, dado por ",
+        "paragraph2.2": ", indica la dirección instantánea de la curva;",
+        "paragraph3.1": ": vector normal principal, orientado en la dirección de la derivada de ",
+        "paragraph3.2": ", define el plano de curvatura;",
+        "paragraph4.1": ": vector binormal, definido como ",
+        "paragraph4.2": ", completa la base ortonormal en el espacio.",
+        "paragraph5.1": "El triedro ",
+        "paragraph5.2": " forma una referencia móvil a lo largo de la curva, adaptada a su geometría local."
       }
     },
     "references": {

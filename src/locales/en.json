@@ -92,9 +92,17 @@
       },
       "frenetFrame": {
         "title": "Frenet Frame",
-        "paragraph1": "Geodesics are the shortest paths on a surface. They satisfy the equation:",
-        "paragraph2.1": "Where ",
-        "paragraph2.2": " represents the covariant derivative. This appears, for example, in satellite trajectories in spacetime."
+        "paragraph1.1": "Let ",
+        "paragraph1.2": " be a regular and sufficiently smooth curve in three-dimensional space, parameterized by the arc length ",
+        "paragraph1.3": ". At each point of the curve, we associate three mutually orthogonal unit vectors that constitute the so-called Frenet frame:",
+        "paragraph2.1": ": unit tangent vector, given by ",
+        "paragraph2.2": ", indicates the instantaneous direction of the curve;",
+        "paragraph3.1": ": principal normal vector, oriented in the direction of the derivative of ",
+        "paragraph3.2": ", defines the curvature plane;",
+        "paragraph4.1": ": binormal vector, defined as ",
+        "paragraph4.2": ", completes the orthonormal basis in space.",
+        "paragraph5.1": "The Frenet frame ",
+        "paragraph5.2": " forms a moving reference along the curve, adapted to its local geometry."
       }
     },
     "references": {
