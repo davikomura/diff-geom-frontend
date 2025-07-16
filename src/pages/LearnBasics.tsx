@@ -1,25 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { InlineMath, BlockMath } from "react-katex";
-
-type ConceptCardProps = {
-  title: string;
-  description: string;
-  anchor: string;
-};
-
-const ConceptCard = ({ title, description, anchor }: ConceptCardProps) => (
-  <motion.a
-    href={`#${anchor}`}
-    className="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:scale-105 transition-transform cursor-pointer block"
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <h3 className="text-2xl font-bold mb-2 text-white">{title}</h3>
-    <p className="text-gray-400">{description}</p>
-  </motion.a>
-);
+import { ConceptChip } from "../components/ConceptChip";
 
 export const LearnBasics = () => {
   const { t } = useTranslation();
@@ -39,38 +21,37 @@ export const LearnBasics = () => {
           <p className="text-lg md:text-xl text-gray-300">
             {t("learnBasics.intro")}
           </p>
-          <p className="italic text-gray-500">{t("learnBasics.quote")}</p>
         </motion.div>
 
-        <section className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
-          <ConceptCard
+        <section className="flex flex-wrap gap-4 justify-center max-w-4xl">
+          <ConceptChip
+            index={0}
             title={t("learnBasics.topic1.title")}
-            description={t("learnBasics.topic1.desc")}
             anchor="parameterized-curves"
           />
-          <ConceptCard
+          <ConceptChip
+            index={1}
             title={t("learnBasics.topic2.title")}
-            description={t("learnBasics.topic2.desc")}
             anchor="regular-curves"
           />
-          <ConceptCard
+          <ConceptChip
+            index={2}
             title={t("learnBasics.topic3.title")}
-            description={t("learnBasics.topic3.desc")}
             anchor="arc-length"
           />
-          <ConceptCard
+          <ConceptChip
+            index={3}
             title={t("learnBasics.topic4.title")}
-            description={t("learnBasics.topic4.desc")}
             anchor="curvatura"
           />
-          <ConceptCard
+          <ConceptChip
+            index={4}
             title={t("learnBasics.topic5.title")}
-            description={t("learnBasics.topic5.desc")}
             anchor="torsion"
           />
-          <ConceptCard
+          <ConceptChip
+            index={5}
             title={t("learnBasics.topic6.title")}
-            description={t("learnBasics.topic6.desc")}
             anchor="frenetFrame"
           />
         </section>

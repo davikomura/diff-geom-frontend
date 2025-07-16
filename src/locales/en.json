@@ -16,10 +16,9 @@
   },
   "learnBasics": {
     "title": "Introduction to Differential Geometry",
-    "intro": "Differential Geometry explores the properties of curves and surfaces using calculus and linear algebra to describe the geometry of space.",
-    "quote": "“Geometry reveals the shape of the universe.”",
+    "intro": "On this page, you'll learn the basic concepts of Differential Geometry, such as parametrized curves, arc length, curvature, torsion, and the Frenet frame.",
     "topic1": {
-      "title": "Curves and Surfaces",
+      "title": "Parameterized Curves",
       "desc": "Understand how curves and surfaces are mathematically defined and how they can be represented in 3D simulations."
     },
     "topic2": {

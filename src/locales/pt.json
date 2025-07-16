@@ -16,8 +16,7 @@
   },
   "learnBasics": {
     "title": "Introdução à Geometria Diferencial",
-    "intro": "A Geometria Diferencial explora as propriedades de curvas e superfícies usando cálculo e álgebra linear para descrever a geometria do espaço.",
-    "quote": "“A geometria revela a forma do universo.”",
+    "intro": "Nesta página, você vai aprender os conceitos básicos da Geometria Diferencial, como curvas parametrizadas, comprimento de arco, curvatura, torção e o triedro de Frenet.",
     "topic1": {
       "title": "Curvas Parametrizadas",
       "desc": "Aprenda como representar curvas no plano ou no espaço por meio de funções que associam um parâmetro a cada ponto da curva, facilitando sua análise e visualização."
