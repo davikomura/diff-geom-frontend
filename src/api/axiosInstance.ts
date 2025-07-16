@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://injured-crow-davikomura-dfe4d9d8.koyeb.app',
+  baseURL: 'https://diff-geom-backend.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },

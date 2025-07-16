@@ -39,8 +39,8 @@
       "desc": "A torção de uma curva mede a variação do vetor normal unitário ao longo da curva, essencial para entender a geometria tridimensional."
     },
     "topic6": {
-      "title": "Geodésicas",
-      "desc": "Descubra os caminhos mais curtos sobre superfícies, fundamentais na física, geometria e modelagem 3D."
+      "title": "Triedo de Frenet",
+      "desc": "O triedo de Frenet é um sistema de coordenadas local formado pelos vetores tangente, normal e binormal de uma curva regular, que descreve a orientação da curva no espaço tridimensional."
     },
     "sectionTitle": "Fundamentos Teóricos Chave",
     "theory": "A geometria diferencial integra o cálculo ao estudo das formas para analisar curvaturas, torções e estruturas de superfícies. Ela fornece a linguagem matemática para descrever o mundo natural, desde planos simples até variedades curvas complexas.",
@@ -90,9 +90,9 @@
         "paragraph1.6": " é chamado torção de ",
         "paragraph1.7": " em "
       },
-      "geodesics": {
-        "title": "Geodésicas",
-        "paragraph1": "Geodésicas são os caminhos de menor distância em uma superfície. Elas satisfazem a equação:",
+      "frenetFrame": {
+        "title": "Triedo de Frenet",
+        "paragraph1": "O triedo ",
         "paragraph2.1": "Onde ",
         "paragraph2.2": " representa a derivada covariante. Isso aparece, por exemplo, em trajetórias de satélites no espaço-tempo."
       }
@@ -121,7 +121,12 @@
     "subtitle": "Explore superfícies clássicas e curvas diferenciáveis com precisão e estilo.",
     "generate": "Gerar",
     "loading": "Carregando...",
-    "generating": "Gerando geometria diferencial..."
+    "generating": "Gerando geometria diferencial...",
+    "curveInfoTitle": "Informações da Curva",
+    "name": "Nome",
+    "type": "Tipo",
+    "domain": "Domínio",
+    "error": "Erro ao carregar a geometria"
   },
   "curves": {
     "sphere": "Esfera",

@@ -39,8 +39,8 @@
       "desc": "The torsion of a curve measures the variation of the unit normal vector along the curve, essential for understanding three-dimensional geometry."
     },
     "topic6": {
-      "title": "Geodesics",
-      "desc": "Discover the shortest paths on surfaces, fundamental in physics, geometry, and 3D modeling."
+      "title": "Frenet Frame",
+      "desc": "The Frenet frame is a local coordinate system formed by the tangent, normal, and binormal vectors of a regular curve, describing the curve's orientation in three-dimensional space."
     },
     "sectionTitle": "Key Theoretical Foundations",
     "theory": "Differential geometry integrates calculus into the study of shapes to analyze curvature, torsion, and surface structures. It provides the mathematical language to describe the natural world, from simple planes to complex curved manifolds.",
@@ -90,8 +90,8 @@
         "paragraph1.6": " is called the torsion of ",
         "paragraph1.7": " at "
       },
-      "geodesics": {
-        "title": "Geodesics",
+      "frenetFrame": {
+        "title": "Frenet Frame",
         "paragraph1": "Geodesics are the shortest paths on a surface. They satisfy the equation:",
         "paragraph2.1": "Where ",
         "paragraph2.2": " represents the covariant derivative. This appears, for example, in satellite trajectories in spacetime."
@@ -121,7 +121,12 @@
     "subtitle": "Explore classical surfaces and differentiable curves with precision and style.",
     "generate": "Generate",
     "loading": "Loading...",
-    "generating": "Generating differential geometry..."
+    "generating": "Generating differential geometry...",
+    "curveInfoTitle": "Curve Information",
+    "name": "Name",
+    "type": "Type",
+    "domain": "Domain",
+    "error": "Error loading geometry"
   },
   "curves": {
     "sphere": "Sphere",

@@ -16,3 +16,15 @@ export const generateCurve = async (curve: string, curvature: string) => {
     throw error;
   }
 };
+
+export const curveInfo = async (curve: string) => {
+  try {
+    const response = await api.get("/curve/info", {
+      params: { curve },
+    });
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching curve info:", error);
+    throw error;
+  }
+}

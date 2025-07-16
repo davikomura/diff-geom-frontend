@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CurveSelector } from "../components/CurveSelector";
 import { CurvatureSelector } from "../components/CurvatureSelector";
 import { GeometryViewer } from "../components/GeometryViewer";
 import { Loader2, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { generateCurve } from "../api/curveService";
+import { curveInfo } from "../api/curveService";
+import { BlockMath, InlineMath } from "react-katex";
 
 export function ViewerPage() {
   const { t } = useTranslation();
@@ -12,6 +14,8 @@ export function ViewerPage() {
   const [curvature, setCurvature] = useState("gaussian");
   const [geometryData, setGeometryData] = useState<any>(null);
   const [loading, setLoading] = useState(false);
+  const [curveDetails, setCurveDetails] = useState<any>(null);
+  const [infoLoading, setInfoLoading] = useState(false);
 
   const handleGenerate = async () => {
     setLoading(true);
@@ -19,7 +23,7 @@ export function ViewerPage() {
     try {
       const res = await generateCurve(curve, curvature);
       console.log("Dados da geometria recebidos:", res);
-      console.log()
+      console.log();
       setGeometryData(res);
     } catch (err) {
       console.error("Erro ao buscar dados da geometria:", err);
@@ -27,6 +31,22 @@ export function ViewerPage() {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    const fetchCurveInfo = async () => {
+      setInfoLoading(true);
+      try {
+        const info = await curveInfo(curve);
+        setCurveDetails(info);
+      } catch (error) {
+        setCurveDetails(null);
+      } finally {
+        setInfoLoading(false);
+      }
+    };
+
+    fetchCurveInfo();
+  }, [curve]);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-black to-gray-900 text-gray-100 px-6 py-16">
@@ -58,6 +78,30 @@ export function ViewerPage() {
             )}
           </button>
         </section>
+
+        {infoLoading ? (
+          <div className="text-center text-gray-400 italic animate-pulse mb-6">
+            {t("viewer.loadingInfo")}
+          </div>
+        ) : (
+          curveDetails && (
+            <div className="bg-gray-800 p-4 rounded-xl shadow-md mb-6">
+              <h2 className="text-xl font-semibold mb-2">
+                {t("viewer.curveInfoTitle")}
+              </h2>
+              <p className="text-gray-300 mb-2">
+                <strong>{t("viewer.name")}:</strong> {curveDetails.name}
+                <br />
+                <strong>{t("viewer.type")}:</strong> {curveDetails.type}
+              </p>
+              <p className="text-gray-300 mb-2">
+                <strong>{t("viewer.domain")}:</strong>{" "}
+                <InlineMath math={curveDetails.domain} />
+              </p>
+              <BlockMath math={curveDetails.latex} />
+            </div>
+          )
+        )}
 
         <section className="mt-8">
           {!loading && geometryData && <GeometryViewer data={geometryData} />}
