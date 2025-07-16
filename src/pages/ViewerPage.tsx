@@ -1,52 +1,24 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { CurveSelector } from "../components/CurveSelector";
 import { CurvatureSelector } from "../components/CurvatureSelector";
 import { GeometryViewer } from "../components/GeometryViewer";
 import { Loader2, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { generateCurve } from "../api/curveService";
-import { curveInfo } from "../api/curveService";
 import { BlockMath, InlineMath } from "react-katex";
+import { useViewer } from "../hooks/useViewer";
 
 export function ViewerPage() {
   const { t } = useTranslation();
   const [curve, setCurve] = useState("sphere");
-  const [curvature, setCurvature] = useState("gaussian");
-  const [geometryData, setGeometryData] = useState<any>(null);
-  const [loading, setLoading] = useState(false);
-  const [curveDetails, setCurveDetails] = useState<any>(null);
-  const [infoLoading, setInfoLoading] = useState(false);
 
-  const handleGenerate = async () => {
-    setLoading(true);
-    setGeometryData(null);
-    try {
-      const res = await generateCurve(curve, curvature);
-      console.log("Dados da geometria recebidos:", res);
-      console.log();
-      setGeometryData(res);
-    } catch (err) {
-      console.error("Erro ao buscar dados da geometria:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    const fetchCurveInfo = async () => {
-      setInfoLoading(true);
-      try {
-        const info = await curveInfo(curve);
-        setCurveDetails(info);
-      } catch (error) {
-        setCurveDetails(null);
-      } finally {
-        setInfoLoading(false);
-      }
-    };
-
-    fetchCurveInfo();
-  }, [curve]);
+  const {
+    curvature,
+    setCurvature,
+    geometryData,
+    loading,
+    handleGenerate,
+    curveDetails,
+  } = useViewer(curve);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-black to-gray-900 text-gray-100 px-6 py-16">
@@ -64,6 +36,7 @@ export function ViewerPage() {
           <button
             onClick={handleGenerate}
             className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-2xl shadow-lg transition duration-200"
+            disabled={loading}
           >
             {loading ? (
               <>
@@ -79,39 +52,47 @@ export function ViewerPage() {
           </button>
         </section>
 
-        {infoLoading ? (
-          <div className="text-center text-gray-400 italic animate-pulse mb-6">
-            {t("viewer.loadingInfo")}
+        {loading && (
+          <div className="flex flex-col items-center mt-6 space-y-2">
+            <p className="flex items-center gap-2 text-gray-400 italic animate-pulse">
+              <Loader2 className="animate-spin h-5 w-5" />
+              {t("viewer.loading")}
+            </p>
+            <p className="flex items-center gap-2 text-yellow-400 text-sm font-semibold">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 8v4m0 4h.01M12 2a10 10 0 1010 10A10 10 0 0012 2z"
+                />
+              </svg>
+              {t("viewer.generationWarning")}
+            </p>
           </div>
-        ) : (
-          curveDetails && (
-            <div className="bg-gray-800 p-4 rounded-xl shadow-md mb-6">
-              <h2 className="text-xl font-semibold mb-2">
-                {t("viewer.curveInfoTitle")}
-              </h2>
-              <p className="text-gray-300 mb-2">
-                <strong>{t("viewer.name")}:</strong> {curveDetails.name}
-                <br />
-                <strong>{t("viewer.type")}:</strong> {curveDetails.type}
-              </p>
-              <p className="text-gray-300 mb-2">
-                <strong>{t("viewer.domain")}:</strong>{" "}
-                <InlineMath math={curveDetails.domain} />
-              </p>
-              <BlockMath math={curveDetails.latex} />
-            </div>
-          )
+        )}
+
+        {!loading && curveDetails && (
+          <div className="bg-gray-800 p-4 rounded-xl shadow-md mb-6">
+            <h2 className="text-xl font-semibold mb-2">
+              {t("viewer.curveInfoTitle")}
+            </h2>
+            <p className="text-gray-300 mb-2">
+              <strong>{t("viewer.domain")}:</strong>{" "}
+              <InlineMath math={curveDetails.domain} />
+            </p>
+            <BlockMath math={curveDetails.latex} />
+          </div>
         )}
 
         <section className="mt-8">
           {!loading && geometryData && <GeometryViewer data={geometryData} />}
-          {loading && (
-            <div className="flex justify-center mt-12">
-              <p className="text-gray-400 italic animate-pulse">
-                {t("viewer.generating")}
-              </p>
-            </div>
-          )}
         </section>
       </div>
     </div>

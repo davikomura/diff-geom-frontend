@@ -123,10 +123,9 @@
     "loading": "Loading...",
     "generating": "Generating differential geometry...",
     "curveInfoTitle": "Curve Information",
-    "name": "Name",
-    "type": "Type",
     "domain": "Domain",
-    "error": "Error loading geometry"
+    "error": "Error loading geometry",
+    "generationWarning": "Generation may take a few seconds. Please wait."
   },
   "curves": {
     "sphere": "Sphere",

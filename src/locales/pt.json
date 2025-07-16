@@ -123,10 +123,9 @@
     "loading": "Carregando...",
     "generating": "Gerando geometria diferencial...",
     "curveInfoTitle": "Informações da Curva",
-    "name": "Nome",
-    "type": "Tipo",
     "domain": "Domínio",
-    "error": "Erro ao carregar a geometria"
+    "error": "Erro ao carregar a geometria",
+    "generationWarning": "A geração pode demorar alguns segundos. Por favor, aguarde."
   },
   "curves": {
     "sphere": "Esfera",
