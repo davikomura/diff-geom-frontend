@@ -4,7 +4,7 @@ import { CurvatureSelector } from "../components/CurvatureSelector";
 import { GeometryViewer } from "../components/GeometryViewer";
 import { Loader2, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { BlockMath, InlineMath } from "react-katex";
+import { InlineMath } from "react-katex";
 import { useViewer } from "../hooks/useViewer";
 
 export function ViewerPage() {
@@ -87,7 +87,10 @@ export function ViewerPage() {
               <strong>{t("viewer.domain")}:</strong>{" "}
               <InlineMath math={curveDetails.domain} />
             </p>
-            <BlockMath math={curveDetails.latex} />
+            <br />
+            <div className="text-center break-words text-base">
+              <InlineMath math={curveDetails.latex} />
+            </div>
           </div>
         )}
 
