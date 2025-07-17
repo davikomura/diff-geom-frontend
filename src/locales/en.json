@@ -3,8 +3,7 @@
     "title": "Exploring Differential Geometry in 3D",
     "intro": "Welcome to the interactive simulator of Differential Geometry, where mathematical concepts take shape, depth, and motion in three-dimensional space.",
     "description1": "This virtual environment was designed to offer a new perspective on curves and surfaces. Here, complex geometric structures—often confined to paper or abstract thought—become dynamic and visual objects ready for exploration.",
-    "description2": "Our goal is to bridge theory and interactive visualization. Parametric curves, smooth surfaces, curvature, torsion, and other geometric properties are within your reach, presented through a clean and distraction-free interface.",
-    "quote": "“Mathematics is the art of naming and shaping the invisible structures that shape the world.”"
+    "description2": "Our goal is to bridge theory and interactive visualization. Parametric curves, smooth surfaces, curvature, torsion, and other geometric properties are within your reach, presented through a clean and distraction-free interface."
   },
   "header": {
     "home": "Home",

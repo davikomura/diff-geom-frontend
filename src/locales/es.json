@@ -3,8 +3,7 @@
     "title": "Explorando la Geometría Diferencial en 3D",
     "intro": "Bienvenido al simulador interactivo de Geometría Diferencial, donde los conceptos matemáticos adquieren forma, profundidad y movimiento en el espacio tridimensional.",
     "description1": "Este entorno virtual ha sido diseñado para ofrecer una nueva perspectiva sobre curvas y superficies. Aquí, las estructuras geométricas complejas—habitualmente confinadas al papel o al pensamiento abstracto—se transforman en objetos dinámicos y visuales, listos para ser explorados.",
-    "description2": "Nuestro objetivo es conectar la teoría con la visualización interactiva. Curvas paramétricas, superficies suaves, curvatura, torsión y otras propiedades geométricas están a tu alcance, presentadas en una interfaz clara y sin distracciones.",
-    "quote": "“Las matemáticas son el arte de nombrar y dar forma a las estructuras invisibles que moldean el mundo.”"
+    "description2": "Nuestro objetivo es conectar la teoría con la visualización interactiva. Curvas paramétricas, superficies suaves, curvatura, torsión y otras propiedades geométricas están a tu alcance, presentadas en una interfaz clara y sin distracciones."
   },
   "header": {
     "home": "Inicio",
