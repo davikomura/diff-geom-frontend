@@ -1,45 +1,35 @@
-import { useThree, Canvas, useFrame } from "@react-three/fiber";
-import { useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { useRef, useMemo } from "react";
 import * as THREE from "three";
 import { Stars } from "@react-three/drei";
 import { ParametricGeometry } from "three/examples/jsm/geometries/ParametricGeometry.js";
 import { EffectComposer, Bloom } from "@react-three/postprocessing";
+import { useMediaQuery } from "react-responsive";
 
-function CameraRig() {
-  const { camera } = useThree();
-
-  useFrame(({ mouse }) => {
-    camera.position.x = mouse.x * 0.5;
-    camera.position.y = mouse.y * 0.5;
-    camera.lookAt(0, 0, 0);
-  });
-
-  return null;
-}
-
-function MobiusMesh() {
+function MobiusMesh({ detail }: { detail: number }) {
   const ref = useRef<THREE.Mesh>(null!);
 
   useFrame(() => {
     ref.current.rotation.y += 0.002;
   });
 
-  const mobiusFunc = (u: number, v: number, target: THREE.Vector3) => {
-    u *= Math.PI * 2;
-    v = v * 2 - 1;
+  const geometry = useMemo(() => {
+    const mobiusFunc = (u: number, v: number, target: THREE.Vector3) => {
+      u *= Math.PI * 2;
+      v = v * 2 - 1;
 
-    const a = 1;
-    const x = (a + (v / 2) * Math.cos(u / 2)) * Math.cos(u);
-    const y = (a + (v / 2) * Math.cos(u / 2)) * Math.sin(u);
-    const z = (v / 2) * Math.sin(u / 2);
+      const a = 1;
+      const x = (a + (v / 2) * Math.cos(u / 2)) * Math.cos(u);
+      const y = (a + (v / 2) * Math.cos(u / 2)) * Math.sin(u);
+      const z = (v / 2) * Math.sin(u / 2);
 
-    target.set(x, y, z);
-  };
-
-  const geometry = new ParametricGeometry(mobiusFunc, 100, 20);
+      target.set(x, y, z);
+    };
+    return new ParametricGeometry(mobiusFunc, detail, 20);
+  }, [detail]);
 
   return (
-    <mesh ref={ref} geometry={geometry}>
+    <mesh ref={ref} geometry={geometry} scale={0.9}>
       <meshStandardMaterial
         color="#facc15"
         emissive="#facc15"
@@ -53,22 +43,27 @@ function MobiusMesh() {
 }
 
 export function MobiusBackground() {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
+  const cameraPosition = isMobile ? [0, 0, 7] : [0, 0, 5];
+  const mobiusDetail = isMobile ? 60 : 100;
+  const starCount = isMobile ? 10000 : 5000;
+
   return (
     <div className="absolute inset-0 z-0 opacity-50 pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
+      <Canvas camera={{ position: cameraPosition as [number, number, number], fov: 45 }}>
         <Stars
-          radius={100}         
-          depth={50}            
-          count={5000}          
-          factor={4}           
-          saturation={0}       
-          fade                 
-          speed={1}            
+          radius={100}
+          depth={50}
+          count={starCount}
+          factor={3}
+          saturation={0}
+          fade
+          speed={1}
         />
         <ambientLight intensity={0.5} />
         <directionalLight position={[3, 3, 3]} intensity={0.6} />
-        <CameraRig />
-        <MobiusMesh />
+        <MobiusMesh detail={mobiusDetail} />
         <EffectComposer>
           <Bloom
             luminanceThreshold={0}
