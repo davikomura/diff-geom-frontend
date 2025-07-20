@@ -100,11 +100,11 @@ export const LearnBasics = () => {
               <InlineMath math="\alpha : I \rightarrow \mathbb{R}^3" /> {t("learnBasics.explanations.arc_length.paragraph1.3")}{" "} <InlineMath math="t_0" /> {t("learnBasics.explanations.arc_length.paragraph1.4")}
             </p>
             <BlockMath math="s(t) = \int_{t_0}^{t} |\alpha '(t)| dt" />
-            <p className="text-gray-400 mt-3 leading-relaxed">
+            <p className="text-gray-300 mt-3 leading-relaxed">
               {t("learnBasics.explanations.arc_length.paragraph2.1")}
             </p>
             <BlockMath math="|\alpha '(t)| = \sqrt{ (x'(t))^2 + (y'(t))^2 + (z'(t))^2 }" />
-            <p className="text-gray-400 mt-3 leading-relaxed">
+            <p className="text-gray-300 mt-3 leading-relaxed">
               {t("learnBasics.explanations.arc_length.paragraph3.1")}{" "} <InlineMath math="\alpha'(t)" /> {t("learnBasics.explanations.arc_length.paragraph3.2")}{" "} <InlineMath math="\alpha'(t) \neq 0" /> {t("learnBasics.explanations.arc_length.paragraph3.3")}{" "} <InlineMath math="s" /> {t("learnBasics.explanations.arc_length.paragraph3.4")}{" "} <InlineMath math="t" /> {t("learnBasics.explanations.arc_length.paragraph3.5")}{" "} <InlineMath math="\frac{ds}{dt} = |\alpha'(t)|" />.
             </p>
             <hr className="my-12 border-gray-700" />
@@ -157,8 +157,8 @@ export const LearnBasics = () => {
               {t("learnBasics.references.title")}
             </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>{t("learnBasics.references.items.docarmo")}</li>
-              <li>{t("learnBasics.references.items.pressley")}</li>
+              <li>CARMO, Manfredo Perdigão do. Geometria diferencial de curvas e superfícies. 4. ed. Rio de Janeiro: SBM, 2010.</li>
+              <li>GRAY, Alfred; ABBENA, Elsa; SALAMON, Simon. Modern Differential Geometry of Curves and Surfaces with Mathematica. 3. ed. Boca Raton, FL: CRC Press, 2006.</li>
             </ul>
           </div>
         </section>

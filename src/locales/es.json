@@ -104,11 +104,7 @@
       }
     },
     "references": {
-      "title": "Referencias",
-      "items": {
-      "docarmo": "Do Carmo, M. P. Geometría Diferencial de Curvas y Superficies. Prentice-Hall, 1976.",
-      "pressley": "Pressley, A. Geometría Diferencial Elemental. Springer, 2001."
-      }
+      "title": "Referencias"
     }
   },
   "about": {

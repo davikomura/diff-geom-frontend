@@ -104,11 +104,7 @@
       }
     },
     "references": {
-      "title": "References",
-      "items": {
-      "docarmo": "Do Carmo, M. P. Differential Geometry of Curves and Surfaces. Prentice-Hall, 1976.",
-      "pressley": "Pressley, A. Elementary Differential Geometry. Springer, 2001."
-      }
+      "title": "References"
     }
   },
   "about": {
