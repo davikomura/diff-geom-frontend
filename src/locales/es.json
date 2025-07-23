@@ -127,7 +127,13 @@
     "curveInfoTitle": "Información de la Curva",
     "domain": "Dominio",
     "error": "Error al cargar la geometría",
-    "generationWarning": "La generación puede tardar unos segundos. Por favor, espera."
+    "generationWarning": "La generación puede tardar unos segundos. Por favor, espera.",
+    "legend": {
+      "title": "Escala de Curvatura",
+      "negative": "Negativa",
+      "zero": "Nula",
+      "positive": "Positiva"
+    }
   },
   "curves": {
     "sphere": "Esfera",

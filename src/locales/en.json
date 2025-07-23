@@ -127,7 +127,13 @@
     "curveInfoTitle": "Curve Information",
     "domain": "Domain",
     "error": "Error loading geometry",
-    "generationWarning": "Generation may take a few seconds. Please wait."
+    "generationWarning": "Generation may take a few seconds. Please wait.",
+    "legend": {
+      "title": "Curvature Scale",
+      "negative": "Negative",
+      "zero": "Zero",
+      "positive": "Positive"
+    }
   },
   "curves": {
     "sphere": "Sphere",
