@@ -1,25 +1,25 @@
 import { useState } from "react";
-import { generateCurve, curveInfo } from "../api/curveService";
+import { generateSurface, surfaceInfo } from "../api/surfaceService";
 
-export function useViewer(curve: string) {
+export function useViewer(surface: string) {
   const [curvature, setCurvature] = useState("gaussian");
   const [geometryData, setGeometryData] = useState<any>(null);
-  const [curveDetails, setCurveDetails] = useState<any>(null);
+  const [surfaceDetails, setSurfaceDetails] = useState<any>(null);
   const [loading, setLoading] = useState(false);
 
   const handleGenerate = async () => {
     setLoading(true);
     setGeometryData(null);
-    setCurveDetails(null);
+    setSurfaceDetails(null);
 
     try {
       const [geoRes, infoRes] = await Promise.all([
-        generateCurve(curve, curvature),
-        curveInfo(curve),
+        generateSurface(surface, curvature),
+        surfaceInfo(surface),
       ]);
 
       setGeometryData(geoRes);
-      setCurveDetails(infoRes);
+      setSurfaceDetails(infoRes);
     } catch (err) {
       console.error("Erro ao buscar dados:", err);
     } finally {
@@ -33,6 +33,6 @@ export function useViewer(curve: string) {
     geometryData,
     loading,
     handleGenerate,
-    curveDetails,
+    surfaceDetails,
   };
 }

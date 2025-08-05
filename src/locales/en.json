@@ -119,14 +119,14 @@
     "rights": "All rights reserved."
   },
   "viewer": {
-    "title": "Differential Geometry Viewer",
-    "subtitle": "Explore classical surfaces and differentiable curves with precision and style.",
+    "title": "Parametric Surface Simulator and Curvature Analysis",
+    "subtitle": "Interactive 3D visualization with real-time computation of Gaussian, mean, and principal curvatures",
     "generate": "Generate",
     "loading": "Loading...",
-    "generating": "Generating differential geometry...",
-    "curveInfoTitle": "Curve Information",
+    "generating": "Generating surface...",
+    "surfaceInfoTitle": "Surface Information",
     "domain": "Domain",
-    "error": "Error loading geometry",
+    "error": "Error loading surface",
     "generationWarning": "Generation may take a few seconds. Please wait.",
     "legend": {
       "title": "Curvature Scale",
@@ -135,7 +135,7 @@
       "positive": "Positive"
     }
   },
-  "curves": {
+  "surface": {
     "sphere": "Sphere",
     "torus": "Torus",
     "enneper": "Enneper",

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CurveSelector } from "../components/CurveSelector";
+import { SurfaceSelector } from "../components/SurfaceSelector";
 import { CurvatureSelector } from "../components/CurvatureSelector";
 import { GeometryViewer } from "../components/GeometryViewer";
 import { Loader2, Play } from "lucide-react";
@@ -9,7 +9,7 @@ import { useViewer } from "../hooks/useViewer";
 
 export function ViewerPage() {
   const { t } = useTranslation();
-  const [curve, setCurve] = useState("sphere");
+  const [surface, setSurface] = useState("sphere");
 
   const {
     curvature,
@@ -17,8 +17,8 @@ export function ViewerPage() {
     geometryData,
     loading,
     handleGenerate,
-    curveDetails,
-  } = useViewer(curve);
+    surfaceDetails,
+  } = useViewer(surface);
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-black to-gray-900 text-gray-100 px-6 py-16">
@@ -31,7 +31,7 @@ export function ViewerPage() {
         </header>
 
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center">
-          <CurveSelector value={curve} onChange={setCurve} />
+          <SurfaceSelector value={surface} onChange={setSurface} />
           <CurvatureSelector value={curvature} onChange={setCurvature} />
           <button
             onClick={handleGenerate}
@@ -78,18 +78,18 @@ export function ViewerPage() {
           </div>
         )}
 
-        {!loading && curveDetails && (
+        {!loading && surfaceDetails && (
           <div className="bg-gray-800 p-4 rounded-xl shadow-md mb-6">
             <h2 className="text-xl font-semibold mb-2">
-              {t("viewer.curveInfoTitle")}
+              {t("viewer.surfaceInfoTitle")}
             </h2>
             <p className="text-gray-300 mb-2">
               <strong>{t("viewer.domain")}:</strong>{" "}
-              <InlineMath math={curveDetails.domain} />
+              <InlineMath math={surfaceDetails.domain} />
             </p>
             <br />
             <div className="text-center break-words text-base">
-              <InlineMath math={curveDetails.latex} />
+              <InlineMath math={surfaceDetails.latex} />
             </div>
           </div>
         )}

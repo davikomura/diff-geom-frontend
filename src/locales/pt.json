@@ -119,14 +119,14 @@
     "rights": "Todos os direitos reservados."
   },
   "viewer": {
-    "title": "Visualizador de Geometria Diferencial",
-    "subtitle": "Explore superfícies clássicas e curvas diferenciáveis com precisão e estilo.",
+    "title": "Simulador de Superfícies Paramétricas e Análise de Curvatura",
+    "subtitle": "Visualização interativa em 3D com cálculo em tempo real das curvaturas Gaussiana, média e principais",
     "generate": "Gerar",
     "loading": "Carregando...",
-    "generating": "Gerando geometria diferencial...",
-    "curveInfoTitle": "Informações da Curva",
+    "generating": "Gerando superfície...",
+    "surfaceInfoTitle": "Informações da Superfície",
     "domain": "Domínio",
-    "error": "Erro ao carregar a geometria",
+    "error": "Erro ao carregar a superfície",
     "generationWarning": "A geração pode demorar alguns segundos. Por favor, aguarde.",
     "legend" : {
       "title": "Escala de Curvatura",
@@ -135,7 +135,7 @@
       "positive": "Positiva"
     }
   },
-  "curves": {
+  "surface": {
     "sphere": "Esfera",
     "torus": "Torus",
     "enneper": "Enneper",
