@@ -1,0 +1,221 @@
+{
+  "home": {
+    "title": "Erforschung der Differentialgeometrie in 3D",
+    "intro": "Willkommen beim interaktiven Simulator für Differentialgeometrie, in dem mathematische Konzepte Form, Tiefe und Bewegung im dreidimensionalen Raum annehmen.",
+    "description1": "Diese virtuelle Umgebung wurde entwickelt, um eine neue Perspektive auf Kurven und Flächen zu bieten. Hier werden komplexe geometrische Strukturen, die oft auf Papier oder abstraktes Denken beschränkt sind, zu dynamischen und visuellen Objekten, die darauf warten, erkundet zu werden.",
+    "description2": "Unser Ziel ist es, Theorie und interaktive Visualisierung zu verbinden. Parametrische Kurven, glatte Flächen, Krümmung, Torsion und andere geometrische Eigenschaften sind in Reichweite, präsentiert in einer klaren und ablenkungsfreien Benutzeroberfläche."
+  },
+  "header": {
+    "home": "Startseite",
+    "viewer": "3D-Simulator",
+    "learn": "Lernen",
+    "learnBasics": "Grundlagen",
+    "learnAdvanced": "Fortgeschrittene Konzepte",
+    "about": "Über das Projekt"
+  },
+  "learnBasics": {
+    "title": "Einführung in die Differentialgeometrie",
+    "intro": "Auf dieser Seite lernen Sie die grundlegenden Konzepte der Differentialgeometrie kennen, wie parametrisierte Kurven, Bogenlänge, Krümmung, Torsion und das Frenet-Bezugssystem.",
+    "topic1": {
+      "title": "Parametrisierte Kurven",
+      "desc": "Verstehen Sie, wie Kurven und Flächen mathematisch definiert sind und wie sie in 3D-Simulationen dargestellt werden können."
+    },
+    "topic2": {
+      "title": "Reguläre Kurven",
+      "desc": "Erfahren Sie, was eine differenzierbare Kurve als regulär charakterisiert, basierend darauf, dass die Ableitung des Positionsvektors nicht verschwindet."
+    },
+    "topic3": {
+      "title": "Bogenlänge",
+      "desc": "Verstehen Sie, wie die Länge einer Kurve aus einer differenzierbaren Parametrisierung mithilfe bestimmter Integrale berechnet wird."
+    },
+    "topic4": {
+      "title": "Krümmung",
+      "desc": "Die Krümmung einer parametrisierten Kurve misst, wie stark die Kurve an einem Punkt von einer Geraden abweicht, definiert als die Norm der Ableitung des Tangenteneinheitsvektors bezüglich der Bogenlänge."
+    },
+    "topic5": {
+      "title": "Torsion",
+      "desc": "Die Torsion einer Kurve misst die Veränderung des Normaleneinheitsvektors entlang der Kurve, was für das Verständnis der dreidimensionalen Geometrie unerlässlich ist."
+    },
+    "topic6": {
+      "title": "Frenet-Bezugssystem",
+      "desc": "Das Frenet-Bezugssystem ist ein lokales Koordinatensystem, das aus den Tangenten-, Normalen- und Binormalenvektoren einer regulären Kurve gebildet wird und die Orientierung der Kurve im dreidimensionalen Raum beschreibt."
+    },
+    "sectionTitle": "Wichtige theoretische Grundlagen",
+    "theory": "Die Differentialgeometrie integriert die Infinitesimalrechnung in die Untersuchung von Formen, um Krümmungen, Torsionen und Flächenstrukturen zu analysieren. Sie liefert die mathematische Sprache zur Beschreibung der natürlichen Welt, von einfachen Ebenen bis hin zu komplexen gekrümmten Mannigfaltigkeiten.",
+    "theory2": "Das Verständnis dieser Prinzipien ermöglicht eine genaue Simulation realer Flächen, was in der geospatialen Analyse, in physikalischen Simulationen und in der 3D-Grafik unerlässlich ist.",
+    "explanations": {
+      "parameterized_curves": {
+        "title": "Parametrisierte Kurven",
+        "paragraph1.1": "Eine differenzierbare parametrisierte Kurve ist eine differenzierbare Abbildung ",
+        "paragraph1.2": " von einem offenen Intervall ",
+        "paragraph1.3": " der reellen Geraden ",
+        "paragraph1.4": " in "
+      },
+      "regular_curves": {
+        "title": "Reguläre Kurven",
+        "paragraph1.1": "Eine differenzierbare parametrisierte Kurve ",
+        "paragraph1.2": " heißt regulär, wenn ",
+        "paragraph1.3": " für alle "
+      },
+      "arc_length": {
+        "title": "Bogenlänge",
+        "paragraph1.1": "Gegeben sei ",
+        "paragraph1.2": ". Die Bogenlänge einer regulären parametrisierten Kurve ",
+        "paragraph1.3": ", beginnend im Punkt ",
+        "paragraph1.4": ", ist definiert als",
+        "paragraph2.1": "wobei ",
+        "paragraph3.1": " die Länge des Vektors ",
+        "paragraph3.2": " ist. Da ",
+        "paragraph3.3": ", ist die Bogenlänge ",
+        "paragraph3.4": " eine differenzierbare Funktion von ",
+        "paragraph3.5": " und "
+      },
+      "curvature": {
+        "title": "Krümmung",
+        "paragraph1.1": "Sei ",
+        "paragraph1.2": " eine nach der Bogenlänge parametrisierte Kurve ",
+        "paragraph1.3": ". Die Zahl ",
+        "paragraph1.4": " heißt die Krümmung von ",
+        "paragraph1.5": " bei "
+      },
+      "torsion": {
+        "title": "Torsion",
+        "paragraph1.1": "Sei ",
+        "paragraph1.2": " eine nach der Bogenlänge parametrisierte Kurve ",
+        "paragraph1.3": ", so dass ",
+        "paragraph1.4": ". Die durch ",
+        "paragraph1.5": " definierte Zahl ",
+        "paragraph1.6": " heißt die Torsion von ",
+        "paragraph1.7": " bei "
+      },
+      "frenetFrame": {
+        "title": "Frenet-Bezugssystem",
+        "paragraph1.1": "Sei ",
+        "paragraph1.2": " eine reguläre und hinreichend glatte Kurve im dreidimensionalen Raum, parametrisiert nach der Bogenlänge ",
+        "paragraph1.3": ". Jedem Punkt der Kurve ordnen wir drei zueinander orthogonale Einheitsvektoren zu, die das sogenannte Frenet-Bezugssystem bilden:",
+        "paragraph2.1": ": Tangenteneinheitsvektor, gegeben durch ",
+        "paragraph2.2": ", gibt die momentane Richtung der Kurve an;",
+        "paragraph3.1": ": Hauptnormalenvektor, in Richtung der Ableitung von ",
+        "paragraph3.2": " orientiert, definiert die Krümmungsebene;",
+        "paragraph4.1": ": Binormalenvektor, definiert als ",
+        "paragraph4.2": ", vervollständigt die Orthonormalbasis im Raum.",
+        "paragraph5.1": "Das Frenet-Bezugssystem ",
+        "paragraph5.2": " bildet eine bewegliche Referenz entlang der Kurve, die an deren lokale Geometrie angepasst ist."
+      }
+    },
+    "references": {
+      "title": "Referenzen"
+    }
+  },
+  "learnAdvanced": {
+    "title": "Fortgeschrittene Konzepte der Differentialgeometrie",
+    "intro": "Entdecken Sie komplexere Strukturen und Sätze der Flächentheorie wie Geodätische, Christoffelsymbole und den berühmten Satz von Gauss-Bonnet.",
+    "topic1": {
+      "title": "Satz von Gauss-Bonnet",
+      "desc": "Verbindet das Integral der Gaußschen Krümmung über eine Fläche mit ihrer Euler-Charakteristik, ein Meilenstein der Geometrie und Topologie."
+    },
+    "topic2": {
+      "title": "Geodätische Linien",
+      "desc": "Verallgemeinerungen von Geraden auf gekrümmten Flächen. Sie stellen lokal die kürzesten Verbindungen zwischen Punkten dar."
+    },
+    "topic3": {
+      "title": "Christoffelsymbole & Kovariante Ableitung",
+      "desc": "Werkzeuge, mit denen das Konzept der Ableitung von Vektorfeldern auf gekrümmte Räume und Riemannsche Mannigfaltigkeiten ausgedehnt wird."
+    },
+    "explanations": {
+      "gauss_bonnet": {
+        "title": "Satz von Gauss-Bonnet",
+        "paragraph1.1": "Der Satz von Gauss-Bonnet stellt eine tiefe Verbindung zwischen der Geometrie (Krümmung) und der Topologie (Euler-Charakteristik) einer kompakten Fläche her. Für eine geschlossene, orientierbare Fläche ",
+        "paragraph1.2": " lautet er:",
+        "paragraph2.1": "wobei ",
+        "paragraph2.2": " die Gaußsche Krümmung und ",
+        "paragraph2.3": " die Euler-Charakteristik der Fläche ist."
+      },
+      "geodesics": {
+        "title": "Geodätische Linien",
+        "paragraph1.1": "Eine Geodätische ist eine Kurve ",
+        "paragraph1.2": " auf einer Fläche, deren Beschleunigungsvektor an jedem Punkt senkrecht zur Tangentialebene der Fläche steht. Physikalisch entspricht dies einer Bewegung ohne seitliche Kräfte.",
+        "paragraph2.1": "Das System der Geodätengleichungen lautet:",
+        "paragraph3.1": "wobei ",
+        "paragraph3.2": " die Christoffelsymbole der Fläche sind."
+      },
+      "christoffel": {
+        "title": "Christoffelsymbole & Kovariante Ableitung",
+        "paragraph1.1": "Die Christoffelsymbole ",
+        "paragraph1.2": " sind keine Tensoren, sondern mathematische Koeffizienten, die beschreiben, wie sich die Basisvektoren eines Koordinatensystems von Punkt zu Punkt ändern.",
+        "paragraph2.1": "Die kovariante Ableitung eines Vektorfeldes ",
+        "paragraph2.2": " in Richtung ",
+        "paragraph2.3": " ist gegeben durch:"
+      }
+    }
+  },
+  "about": {
+    "title": "Über den Simulator",
+    "intro": "Dieser Simulator wurde entwickelt, um eine interaktive Erfahrung beim Studium der Differentialgeometrie zu bieten.",
+    "description": "Sein Ziel ist es, ein Lehrmittel anzubieten, das das Erlernen von Kurven und Flächen zugänglicher, visueller und intuitiver macht. Durch die 3D-Exploration können geometrische Eigenschaften dynamisch beobachtet werden.",
+    "tech": "Das Projekt kombiniert moderne Technologien wie React, Three.js und TailwindCSS und integriert computergestützte Visualisierung mit fortgeschrittener Mathematik in einer minimalistischen Benutzeroberfläche.",
+    "author": "Entwickelt von"
+  },
+  "footer": {
+    "developed": "Entwickelt von",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "viewer": {
+    "title": "Simulator für parametrische Flächen und Krümmungsanalyse",
+    "subtitle": "Interaktive 3D-Visualisierung mit Echtzeitberechnung der Gaußschen, mittleren und Hauptkrümmungen",
+    "generate": "Generieren",
+    "loading": "Laden...",
+    "generating": "Fläche wird generiert...",
+    "surfaceInfoTitle": "Flächeninformationen",
+    "domain": "Definitionsbereich",
+    "error": "Fehler beim Laden der Fläche",
+    "generationWarning": "Die Generierung kann einige Sekunden dauern. Bitte warten.",
+    "legend": {
+      "title": "Krümmungsskala",
+      "negative": "Negativ",
+      "zero": "Null",
+      "positive": "Positiv"
+    }
+  },
+  "surface": {
+    "sphere": "Kugel",
+    "torus": "Torus",
+    "enneper": "Enneper-Fläche",
+    "helicoid": "Helikoid (Wendelfläche)",
+    "hyperbolic_paraboloid": "Hyperbolisches Paraboloid",
+    "elliptic_paraboloid": "Elliptisches Paraboloid"
+  },
+  "curvatures": {
+    "gaussian": "Gaußsche Krümmung",
+    "mean": "Mittlere Krümmung",
+    "principal": "Hauptkrümmungen",
+    "normal": "Normalkrümmung (Richtung 1,1)"
+  },
+  "notFound": {
+    "title": "Oops! Seite nicht gefunden.",
+    "description": "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück zur Startseite"
+  },
+  "seo": {
+    "home": {
+      "title": "GeoSim 3D - Interaktiver Simulator für Differentialgeometrie",
+      "description": "Visualisieren Sie Differentialgeometrie in 3D. Entdecken Sie Krümmung, Torsion und 3D-Flächen in Echtzeit mit unserem mathematischen Online-Simulator."
+    },
+    "viewer": {
+      "title": "3D-Simulator - Parametrische Flächen & Krümmung | GeoSim 3D",
+      "description": "Generieren Sie parametrische Flächen wie Tori, Sphären und Enneper-Flächen. Analysieren Sie Gaußsche, mittlere und Hauptkrümmungen in Echtzeit."
+    },
+    "learnBasics": {
+      "title": "Lernzentrum Grundlagen - Differentialgeometrie | GeoSim 3D",
+      "description": "Erfahren Sie die Grundlagen der Differentialgeometrie. Entdecken Sie parametrisierte Kurven, Bogenlänge, Krümmung, Torsion und das Frenet-Bezugssystem."
+    },
+    "learnAdvanced": {
+      "title": "Lernzentrum Fortgeschritten - Differentialgeometrie | GeoSim 3D",
+      "description": "Vertiefen Sie Ihr Wissen über Geodätische, Christoffelsymbole und den Satz von Gauss-Bonnet mit interaktiven Visualisierungen."
+    },
+    "about": {
+      "title": "Über das Projekt - GeoSim 3D",
+      "description": "Lernen Sie die Motivation, die Technologien und den Entwickler hinter GeoSim 3D kennen, einem interaktiven Werkzeug zur mathematischen Visualisierung."
+    }
+  }
+}

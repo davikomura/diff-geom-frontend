@@ -1,0 +1,221 @@
+{
+  "home": {
+    "title": "Exploration de la Géométrie Différentielle en 3D",
+    "intro": "Bienvenue dans le simulateur interactif de Géométrie Différentielle, où les concepts mathématiques prennent forme, profondeur et mouvement dans l'espace tridimensionnel.",
+    "description1": "Cet environnement virtuel a été conçu pour offrir une nouvelle perspective sur les courbes et les surfaces. Ici, des structures géométriques complexes, souvent confinées au papier ou à la pensée abstraite, deviennent des objets dynamiques et visuels prêts pour l'exploration.",
+    "description2": "Notre objectif est de relier la théorie à la visualisation interactive. Les courbes paramétriques, les surfaces lisses, la courbure, la torsion et d'autres propriétés géométriques sont à votre portée, présentées à travers une interface épurée et sans distractions."
+  },
+  "header": {
+    "home": "Accueil",
+    "viewer": "Simulateur 3D",
+    "learn": "Apprendre",
+    "learnBasics": "Fondations",
+    "learnAdvanced": "Concepts Avancés",
+    "about": "À propos du projet"
+  },
+  "learnBasics": {
+    "title": "Introduction à la Géométrie Différentielle",
+    "intro": "Sur cette page, vous découvrirez les concepts de base de la géométrie différentielle, tels que les courbes paramétrées, la longueur d'arc, la courbure, la torsion et le repère de Frenet.",
+    "topic1": {
+      "title": "Courbes Paramétrées",
+      "desc": "Comprenez comment les courbes et les surfaces sont définies mathématiquement et comment elles peuvent être représentées dans des simulations 3D."
+    },
+    "topic2": {
+      "title": "Courbes Régulières",
+      "desc": "Découvrez ce qui caractérise une courbe différentiable comme régulière, sur la base de la non-annulation de la dérivée du vecteur position."
+    },
+    "topic3": {
+      "title": "Longueur d'Arc",
+      "desc": "Comprenez comment calculer la longueur d'une courbe à partir d'un paramétrage différentiable à l'aide d'intégrales définies."
+    },
+    "topic4": {
+      "title": "Courbure",
+      "desc": "La courbure d'une courbe paramétrée mesure à quel point la courbe s'écarte d'une ligne droite en un point, définie comme la norme de la dérivée du vecteur tangent unitaire par rapport à la longueur d'arc."
+    },
+    "topic5": {
+      "title": "Torsion",
+      "desc": "La torsion d'une courbe mesure la variation du vecteur normal unitaire le long de la courbe, essentielle pour comprendre la géométrie tridimensionnelle."
+    },
+    "topic6": {
+      "title": "Repère de Frenet",
+      "desc": "Le repère de Frenet est un système de coordonnées locales formé par les vecteurs tangent, normal et binormal d'une courbe régulière, décrivant l'orientation de la courbe dans l'espace tridimensionnel."
+    },
+    "sectionTitle": "Fondements Théoriques Clés",
+    "theory": "La géométrie différentielle intègre le calcul dans l'étude des formes afin d'analyser la courbure, la torsion et les structures des surfaces. Elle fournit le langage mathématique pour décrire le monde naturel, des plans simples aux variétés courbes complexes.",
+    "theory2": "La compréhension de ces principes permet une simulation précise des surfaces réelles, ce qui est essentiel dans l'analyse géospatiale, les simulations physiques et les graphismes 3D.",
+    "explanations": {
+      "parameterized_curves": {
+        "title": "Courbes Paramétrées",
+        "paragraph1.1": "Une courbe paramétrée différentiable est une application différentiable ",
+        "paragraph1.2": " d'un intervalle ouvert ",
+        "paragraph1.3": " de la droite réelle ",
+        "paragraph1.4": " dans "
+      },
+      "regular_curves": {
+        "title": "Courbes Régulières",
+        "paragraph1.1": "Une courbe paramétrée différentiable ",
+        "paragraph1.2": " est dite régulière si ",
+        "paragraph1.3": " pour tout "
+      },
+      "arc_length": {
+        "title": "Longueur d'Arc",
+        "paragraph1.1": "Soit ",
+        "paragraph1.2": ". La longueur d'arc d'une courbe paramétrée régulière ",
+        "paragraph1.3": ", à partir du point ",
+        "paragraph1.4": ", est définie par",
+        "paragraph2.1": "où ",
+        "paragraph3.1": " est la longueur du vecteur ",
+        "paragraph3.2": ". Comme ",
+        "paragraph3.3": ", la longueur d'arc ",
+        "paragraph3.4": " est une fonction différentiable de ",
+        "paragraph3.5": " et "
+      },
+      "curvature": {
+        "title": "Courbure",
+        "paragraph1.1": "Soit ",
+        "paragraph1.2": " une courbe paramétrée par la longueur d'arc ",
+        "paragraph1.3": ". Le nombre ",
+        "paragraph1.4": " est appelé la courbure de ",
+        "paragraph1.5": " en "
+      },
+      "torsion": {
+        "title": "Torsion",
+        "paragraph1.1": "Soit ",
+        "paragraph1.2": " une courbe paramétrée par la longueur d'arc ",
+        "paragraph1.3": " telle que ",
+        "paragraph1.4": ". Le nombre ",
+        "paragraph1.5": " défini par ",
+        "paragraph1.6": " est appelé la torsion de ",
+        "paragraph1.7": " en "
+      },
+      "frenetFrame": {
+        "title": "Repère de Frenet",
+        "paragraph1.1": "Soit ",
+        "paragraph1.2": " une courbe régulière et suffisamment lisse dans l'espace tridimensionnel, paramétrée par la longueur d'arc ",
+        "paragraph1.3": ". À chaque point de la courbe, on associe trois vecteurs unitaires mutuellement orthogonaux constituant le repère de Frenet :",
+        "paragraph2.1": " : vecteur tangent unitaire, donné par ",
+        "paragraph2.2": ", indique la direction instantanée de la courbe ;",
+        "paragraph3.1": " : vecteur normal principal, orienté dans la direction de la dérivée de ",
+        "paragraph3.2": ", définit le plan de courbure ;",
+        "paragraph4.1": " : vecteur binormal, défini comme ",
+        "paragraph4.2": ", complète la base orthonormée dans l'espace.",
+        "paragraph5.1": "Le repère de Frenet ",
+        "paragraph5.2": " forme une référence mobile le long de la courbe, adaptée à sa géométrie locale."
+      }
+    },
+    "references": {
+      "title": "Références"
+    }
+  },
+  "learnAdvanced": {
+    "title": "Concepts Avancés de Géométrie Différentielle",
+    "intro": "Explorez des structures et des théorèmes plus complexes de la théorie des surfaces, tels que les géodésiques, les symboles de Christoffel et le célèbre théorème de Gauss-Bonnet.",
+    "topic1": {
+      "title": "Théorème de Gauss-Bonnet",
+      "desc": "Relie l'intégrale de la courbure gaussienne sur une surface à sa caractéristique d'Euler, un résultat fondamental reliant géométrie et topologie."
+    },
+    "topic2": {
+      "title": "Géodésiques",
+      "desc": "Généralisation de la notion de ligne droite sur des surfaces courbes. Elles représentent localement les chemins les plus courts entre les points."
+    },
+    "topic3": {
+      "title": "Symboles de Christoffel & Dérivée Covariante",
+      "desc": "Outils mathématiques étendant le concept de dérivation des champs de vecteurs aux espaces courbes et aux variétés riemanniennes."
+    },
+    "explanations": {
+      "gauss_bonnet": {
+        "title": "Théorème de Gauss-Bonnet",
+        "paragraph1.1": "Le théorème de Gauss-Bonnet établit un lien profond entre la géométrie (courbure) et la topologie (caractéristique d'Euler) d'une surface compacte. Pour une surface fermée et orientable ",
+        "paragraph1.2": ", il s'énonce :",
+        "paragraph2.1": "où ",
+        "paragraph2.2": " est la courbure gaussienne et ",
+        "paragraph2.3": " est la caractéristique d'Euler de la surface."
+      },
+      "geodesics": {
+        "title": "Géodésiques",
+        "paragraph1.1": "Une géodésique est une courbe ",
+        "paragraph1.2": " sur une surface dont le vecteur accélération à chaque point est perpendiculaire au plan tangent de la surface. Physiquement, cela correspond à un mouvement sans forces latérales.",
+        "paragraph2.1": "Le système d'équations des géodésiques est :",
+        "paragraph3.1": "où ",
+        "paragraph3.2": " sont les symboles de Christoffel de la surface."
+      },
+      "christoffel": {
+        "title": "Symboles de Christoffel & Dérivée Covariante",
+        "paragraph1.1": "Les symboles de Christoffel ",
+        "paragraph1.2": " ne sont pas des tenseurs, mais des coefficients décrivant la façon dont les vecteurs de base d'un système de coordonnées varient d'un point à un autre.",
+        "paragraph2.1": "La dérivée covariante d'un champ de vecteurs ",
+        "paragraph2.2": " dans la direction ",
+        "paragraph2.3": " est donnée par :"
+      }
+    }
+  },
+  "about": {
+    "title": "À propos du Simulateur",
+    "intro": "Ce simulateur a été créé pour fournir une expérience interactive dans l'étude de la géométrie différentielle.",
+    "description": "Son but est d'offrir un outil pédagogique qui rend l'apprentissage des courbes et des surfaces plus accessible, visuel et intuitif. Grâce à l'exploration 3D, les utilisateurs peuvent observer dynamiquement les propriétés géométriques.",
+    "tech": "Le projet combine des technologies modernes telles que React, Three.js et TailwindCSS, intégrant la visualisation informatique et les mathématiques avancées dans une interface minimaliste.",
+    "author": "Développé par"
+  },
+  "footer": {
+    "developed": "Développé par",
+    "rights": "Tous droits réservés."
+  },
+  "viewer": {
+    "title": "Simulateur de Surfaces Paramétriques et Analyse de Courbure",
+    "subtitle": "Visualisation 3D interactive avec calcul en temps réel des courbures gaussienne, moyenne et principales",
+    "generate": "Générer",
+    "loading": "Chargement...",
+    "generating": "Génération de la surface...",
+    "surfaceInfoTitle": "Informations sur la Surface",
+    "domain": "Domaine",
+    "error": "Erreur lors du chargement de la surface",
+    "generationWarning": "La génération peut prendre quelques secondes. Veuillez patienter.",
+    "legend": {
+      "title": "Échelle de Courbure",
+      "negative": "Négative",
+      "zero": "Nulle",
+      "positive": "Positive"
+    }
+  },
+  "surface": {
+    "sphere": "Sphère",
+    "torus": "Tore",
+    "enneper": "Surface d'Enneper",
+    "helicoid": "Hélicoïde",
+    "hyperbolic_paraboloid": "Paraboloïde Hyperbolique",
+    "elliptic_paraboloid": "Paraboloïde Elliptique"
+  },
+  "curvatures": {
+    "gaussian": "Courbure Gaussienne",
+    "mean": "Courbure Moyenne",
+    "principal": "Courbures Principales",
+    "normal": "Courbure Normale (direction 1,1)"
+  },
+  "notFound": {
+    "title": "Oups ! Page non trouvée.",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "seo": {
+    "home": {
+      "title": "GeoSim 3D - Simulateur Interactif de Géométrie Différentielle",
+      "description": "Visualisez la géométrie différentielle en 3D. Explorez la courbure, la torsion et les surfaces 3D en temps réel avec notre simulateur mathématique en ligne."
+    },
+    "viewer": {
+      "title": "Simulateur 3D - Surfaces Paramétriques et Courbures | GeoSim 3D",
+      "description": "Générez des surfaces paramétriques comme des tores, des sphères et des surfaces d'Enneper. Analysez les courbures gaussienne, moyenne et principales."
+    },
+    "learnBasics": {
+      "title": "Bases de la Géométrie Différentielle - Centre d'Apprentissage | GeoSim 3D",
+      "description": "Apprenez les bases de la géométrie différentielle. Découvrez les courbes paramétrées, la longueur d'arc, la courbure, la torsion et le repère de Frenet."
+    },
+    "learnAdvanced": {
+      "title": "Concepts Avancés en Géométrie Différentielle | GeoSim 3D",
+      "description": "Approfondissez vos connaissances sur les géodésiques, les symboles de Christoffel et le théorème de Gauss-Bonnet avec des visualisations interactives."
+    },
+    "about": {
+      "title": "À propos du Projet - GeoSim 3D",
+      "description": "Découvrez les motivations, les technologies et le développeur derrière GeoSim 3D, un outil interactif de visualisation mathématique."
+    }
+  }
+}

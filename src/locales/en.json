@@ -15,7 +15,7 @@
   },
   "learnBasics": {
     "title": "Introduction to Differential Geometry",
-    "intro": "On this page, you'll learn the basic concepts of Differential Geometry, such as parametrized curves, arc length, curvature, torsion, and the Frenet frame.",
+    "intro": "On this page, you'll learn the basic concepts of Differential Geometry, such as parameterized curves, arc length, curvature, torsion, and the Frenet frame.",
     "topic1": {
       "title": "Parameterized Curves",
       "desc": "Understand how curves and surfaces are mathematically defined and how they can be represented in 3D simulations."
@@ -107,6 +107,48 @@
       "title": "References"
     }
   },
+  "learnAdvanced": {
+    "title": "Advanced Concepts in Differential Geometry",
+    "intro": "Explore more complex structures and theorems of surface theory such as Geodesics, Christoffel Symbols, and the famous Gauss-Bonnet Theorem.",
+    "topic1": {
+      "title": "Gauss-Bonnet Theorem",
+      "desc": "Connects the total curvature of a surface to its Euler characteristic, a monumental result linking geometry and topology."
+    },
+    "topic2": {
+      "title": "Geodesics",
+      "desc": "Generalizations of straight lines to curved surfaces. They represent locally the shortest paths between points."
+    },
+    "topic3": {
+      "title": "Christoffel Symbols & Covariant Derivative",
+      "desc": "Mathematical coefficients that describe how coordinate basis vectors change in curved spaces, essential for tensors."
+    },
+    "explanations": {
+      "gauss_bonnet": {
+        "title": "Gauss-Bonnet Theorem",
+        "paragraph1.1": "The Gauss-Bonnet theorem establishes a deep connection between geometry (curvature) and topology (Euler characteristic) of a compact surface. For a closed, orientable surface ",
+        "paragraph1.2": ", it states:",
+        "paragraph2.1": "where ",
+        "paragraph2.2": " is the Gaussian curvature and ",
+        "paragraph2.3": " is the Euler characteristic of the surface."
+      },
+      "geodesics": {
+        "title": "Geodesics",
+        "paragraph1.1": "A geodesic is a curve ",
+        "paragraph1.2": " on a surface whose acceleration vector is everywhere perpendicular to the tangent plane of the surface. Physically, it corresponds to motion without lateral forces.",
+        "paragraph2.1": "The geodesic equations system is:",
+        "paragraph3.1": "where ",
+        "paragraph3.2": " are the Christoffel symbols of the surface."
+      },
+      "christoffel": {
+        "title": "Christoffel Symbols & Covariant Derivative",
+        "paragraph1.1": "The Christoffel symbols ",
+        "paragraph1.2": " are not tensors, but mathematical coefficients representing the connection, describing how basis vectors vary from point to point.",
+        "paragraph2.1": "The covariant derivative of a vector field ",
+        "paragraph2.2": " in direction ",
+        "paragraph2.3": " is given by:"
+      }
+    }
+  },
   "about": {
     "title": "About the Simulator",
     "intro": "This simulator was created to provide an interactive experience for studying Differential Geometry.",
@@ -153,5 +195,27 @@
     "title": "Oops! Page not found.",
     "description": "The page you are looking for does not exist or has been moved.",
     "cta": "Back to Home"
+  },
+  "seo": {
+    "home": {
+      "title": "GeoSim 3D - Interactive Differential Geometry Simulator",
+      "description": "Visualize differential geometry in 3D. Explore curvature, torsion, and 3D surfaces in real-time with our free online mathematics simulator."
+    },
+    "viewer": {
+      "title": "3D Simulator - Parametric Surfaces & Curvatures | GeoSim 3D",
+      "description": "Generate parametric surfaces like tori, spheres, and Enneper surfaces. Analyze Gaussian, mean, and principal curvatures in real-time."
+    },
+    "learnBasics": {
+      "title": "Learn Fundamentals - Differential Geometry | GeoSim 3D",
+      "description": "Learn the basics of differential geometry. Discover parameterized curves, arc length, curvature, torsion, and the Frenet frame."
+    },
+    "learnAdvanced": {
+      "title": "Learn Advanced Concepts - Differential Geometry | GeoSim 3D",
+      "description": "Deepen your knowledge of geodesics, Christoffel symbols, and the Gauss-Bonnet theorem with interactive visualizations."
+    },
+    "about": {
+      "title": "About the Project - GeoSim 3D",
+      "description": "Learn about the motivation, tech stack, and developer behind GeoSim 3D, an interactive mathematical visualization web application."
+    }
   }
 }

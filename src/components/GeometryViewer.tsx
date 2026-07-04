@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls, Stars } from "@react-three/drei"
+import { OrbitControls } from "@react-three/drei"
 import { useMemo } from "react"
 import * as THREE from "three"
 import { CornerCurvatureLegend } from "./CornerCurvatureLegend.tsx"
@@ -69,11 +69,10 @@ export function GeometryViewer({ data }: Props) {
   }, [x, y, z, curvature])
 
   return (
-    <div className="relative h-[500px] md:h-[600px] bg-black rounded-2xl shadow-2xl overflow-hidden">
+    <div className="relative h-full w-full min-h-[450px] bg-black rounded-[32px] overflow-hidden">
       <Canvas camera={{ position: [4, 4, 4], fov: 45 }}>
         <ambientLight intensity={0.4} />
         <pointLight position={[10, 10, 10]} intensity={1.2} color="white" />
-        <Stars radius={50} depth={40} count={5000} factor={4} saturation={0} fade speed={1} />
 
         <OrbitControls
           enablePan={false}

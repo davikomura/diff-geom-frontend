@@ -107,6 +107,48 @@
       "title": "Referências"
     }
   },
+  "learnAdvanced": {
+    "title": "Conceitos Avançados de Geometria Diferencial",
+    "intro": "Explore estruturas e teoremas mais complexos da teoria das superfícies, como Geodésicas, Símbolos de Christoffel e o célebre Teorema de Gauss-Bonnet.",
+    "topic1": {
+      "title": "Teorema de Gauss-Bonnet",
+      "desc": "Conecta a curvatura total de uma superfície à sua característica de Euler, um resultado monumental que une geometria e topologia."
+    },
+    "topic2": {
+      "title": "Geodésicas",
+      "desc": "Generalização de linhas retas para superfícies curvas. Representam localmente os caminhos mais curtos entre pontos."
+    },
+    "topic3": {
+      "title": "Símbolos de Christoffel & Derivada Covariante",
+      "desc": "Coeficientes matemáticos que descrevem a variação dos vetores de base coordenada em espaços curvos."
+    },
+    "explanations": {
+      "gauss_bonnet": {
+        "title": "Teorema de Gauss-Bonnet",
+        "paragraph1.1": "O teorema de Gauss-Bonnet estabelece uma conexão profunda entre a geometria (curvatura) e a topologia (característica de Euler) de uma superfície compacta. Para uma superfície fechada e orientável ",
+        "paragraph1.2": ", ele enuncia:",
+        "paragraph2.1": "onde ",
+        "paragraph2.2": " é a curvatura Gaussiana e ",
+        "paragraph2.3": " é a característica de Euler da superfície."
+      },
+      "geodesics": {
+        "title": "Geodésicas",
+        "paragraph1.1": "Uma geodésica é uma curva ",
+        "paragraph1.2": " sobre uma superfície cujo vetor aceleração é em cada ponto perpendicular ao plano tangente da superfície. Fisicamente, corresponde ao movimento sem forças laterais.",
+        "paragraph2.1": "O sistema de equações das geodésicas é:",
+        "paragraph3.1": "onde ",
+        "paragraph3.2": " são os símbolos de Christoffel da superfície."
+      },
+      "christoffel": {
+        "title": "Símbolos de Christoffel & Derivada Covariante",
+        "paragraph1.1": "Os símbolos de Christoffel ",
+        "paragraph1.2": " não são tensores, mas sim coeficientes matemáticos da conexão que descrevem como os vetores de base variam de ponto a ponto.",
+        "paragraph2.1": "A derivada covariante de um campo vetorial ",
+        "paragraph2.2": " na direção ",
+        "paragraph2.3": " é dada por:"
+      }
+    }
+  },
   "about": {
     "title": "Sobre o Simulador",
     "intro": "Este simulador foi criado com o objetivo de proporcionar uma experiência interativa no estudo da Geometria Diferencial.",
@@ -128,7 +170,7 @@
     "domain": "Domínio",
     "error": "Erro ao carregar a superfície",
     "generationWarning": "A geração pode demorar alguns segundos. Por favor, aguarde.",
-    "legend" : {
+    "legend": {
       "title": "Escala de Curvatura",
       "negative": "Negativa",
       "zero": "Nula",
@@ -153,5 +195,27 @@
     "title": "Oops! Página não encontrada.",
     "description": "A página que você está procurando não existe ou foi movida.",
     "cta": "Voltar para o início"
+  },
+  "seo": {
+    "home": {
+      "title": "GeoSim 3D - Simulador Interativo de Geometria Diferencial",
+      "description": "Visualize a geometria diferencial em 3D. Explore curvatura, torção e superfícies tridimensionais em tempo real com nosso simulador matemático online grátis."
+    },
+    "viewer": {
+      "title": "Simulador 3D - Superfícies Paramétricas & Curvatura | GeoSim 3D",
+      "description": "Gere superfícies paramétricas como torus, esferas e superfícies de Enneper. Analise curvatura gaussiana, média e principal em tempo real."
+    },
+    "learnBasics": {
+      "title": "Fundamentos de Geometria Diferencial - Centro de Aprendizado | GeoSim 3D",
+      "description": "Aprenda os conceitos básicos de geometria diferencial. Descubra curvas parametrizadas, comprimento de arco, curvatura, torção e o triedro de Frenet."
+    },
+    "learnAdvanced": {
+      "title": "Conceitos Avançados de Geometria Diferencial | GeoSim 3D",
+      "description": "Aprofunde seus conhecimentos em geodésicas, símbolos de Christoffel e o teorema de Gauss-Bonnet com visualizações interativas em 3D."
+    },
+    "about": {
+      "title": "Sobre o Projeto - GeoSim 3D",
+      "description": "Conheça a motivação, tecnologias utilizadas e o desenvolvedor por trás do GeoSim 3D, um simulador matemático interativo."
+    }
   }
 }
