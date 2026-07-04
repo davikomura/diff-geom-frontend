@@ -53,6 +53,12 @@ export const LearnAdvanced = () => {
       {/* React 19 Native SEO Meta Tags Hoisting */}
       <title>{t("seo.learnAdvanced.title")}</title>
       <meta name="description" content={t("seo.learnAdvanced.description")} />
+      <meta property="og:title" content={t("seo.learnAdvanced.title")} />
+      <meta property="og:description" content={t("seo.learnAdvanced.description")} />
+      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:title" content={t("seo.learnAdvanced.title")} />
+      <meta property="twitter:description" content={t("seo.learnAdvanced.description")} />
+      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
 
       {/* Decorative background glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-purple-500/5 rounded-full blur-[150px] pointer-events-none" />
@@ -155,7 +161,7 @@ export const LearnAdvanced = () => {
                     {t("learnAdvanced.explanations.gauss_bonnet.paragraph1.2")}
                   </p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-purple-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-purple-300 shadow-inner overflow-x-auto">
                     <BlockMath math="\iint_{M} K \, dA = 2\pi \chi(M)" />
                   </div>
 
@@ -201,7 +207,7 @@ export const LearnAdvanced = () => {
 
                   <p className="text-gray-300">{t("learnAdvanced.explanations.geodesics.paragraph2.1")}</p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-indigo-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-indigo-300 shadow-inner overflow-x-auto">
                     <BlockMath math="\frac{d^2 x^k}{dt^2} + \sum_{i,j} \Gamma^k_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt} = 0" />
                   </div>
 
@@ -237,7 +243,7 @@ export const LearnAdvanced = () => {
                     {t("learnAdvanced.explanations.christoffel.paragraph1.2")}
                   </p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-pink-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-pink-300 shadow-inner overflow-x-auto">
                     <BlockMath math="\Gamma^k_{ij} = \frac{1}{2} \sum_{l} g^{kl} \left( \frac{\partial g_{il}}{\partial x^j} + \frac{\partial g_{jl}}{\partial x^i} - \frac{\partial g_{ij}}{\partial x^l} \right)" />
                   </div>
 
@@ -253,7 +259,7 @@ export const LearnAdvanced = () => {
                     {t("learnAdvanced.explanations.christoffel.paragraph2.3")}
                   </p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-pink-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-pink-300 shadow-inner overflow-x-auto">
                     <BlockMath math="\nabla_j v^i = \frac{\partial v^i}{\partial x^j} + \sum_{k} \Gamma^i_{jk} v^k" />
                   </div>
                 </div>

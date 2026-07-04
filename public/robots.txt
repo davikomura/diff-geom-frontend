@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geosim3d.vercel.app/sitemap.xml

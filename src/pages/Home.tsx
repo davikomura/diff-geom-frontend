@@ -15,6 +15,12 @@ export const Home = () => {
       {/* React 19 Native SEO Meta Tags Hoisting */}
       <title>{t("seo.home.title")}</title>
       <meta name="description" content={t("seo.home.description")} />
+      <meta property="og:title" content={t("seo.home.title")} />
+      <meta property="og:description" content={t("seo.home.description")} />
+      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:title" content={t("seo.home.title")} />
+      <meta property="twitter:description" content={t("seo.home.description")} />
+      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
 
       <MobiusBackground />
 

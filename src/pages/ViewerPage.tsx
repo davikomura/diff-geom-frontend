@@ -26,6 +26,12 @@ export function ViewerPage() {
       {/* React 19 Native SEO Meta Tags Hoisting */}
       <title>{t("seo.viewer.title")}</title>
       <meta name="description" content={t("seo.viewer.description")} />
+      <meta property="og:title" content={t("seo.viewer.title")} />
+      <meta property="og:description" content={t("seo.viewer.description")} />
+      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:title" content={t("seo.viewer.title")} />
+      <meta property="twitter:description" content={t("seo.viewer.description")} />
+      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
 
       {/* Decorative background glow circles */}
       <div className="absolute top-1/3 left-10 w-96 h-96 bg-blue-500/5 rounded-full blur-[120px] pointer-events-none" />

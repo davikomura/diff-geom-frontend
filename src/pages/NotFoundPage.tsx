@@ -8,7 +8,14 @@ export const NotFoundPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-gray-100 px-6 relative overflow-hidden">
-      <title>404 - Page Not Found | GeoSim 3D</title>
+      <title>404 - {t("notFound.title")} | GeoSim 3D</title>
+      <meta name="description" content={t("notFound.description")} />
+      <meta property="og:title" content={`404 - ${t("notFound.title")} | GeoSim 3D`} />
+      <meta property="og:description" content={t("notFound.description")} />
+      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:title" content={`404 - ${t("notFound.title")} | GeoSim 3D`} />
+      <meta property="twitter:description" content={t("notFound.description")} />
+      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
       
       {/* Decorative Blur BG */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-red-500/10 rounded-full blur-[150px] pointer-events-none" />

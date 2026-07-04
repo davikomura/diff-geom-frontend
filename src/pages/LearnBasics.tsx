@@ -59,6 +59,12 @@ export const LearnBasics = () => {
       {/* React 19 Native SEO Meta Tags Hoisting */}
       <title>{t("seo.learnBasics.title")}</title>
       <meta name="description" content={t("seo.learnBasics.description")} />
+      <meta property="og:title" content={t("seo.learnBasics.title")} />
+      <meta property="og:description" content={t("seo.learnBasics.description")} />
+      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:title" content={t("seo.learnBasics.title")} />
+      <meta property="twitter:description" content={t("seo.learnBasics.description")} />
+      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
 
       {/* Decorative background glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-red-500/5 rounded-full blur-[150px] pointer-events-none" />
@@ -241,13 +247,13 @@ export const LearnBasics = () => {
                     {t("learnBasics.explanations.arc_length.paragraph1.4")}
                   </p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-green-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-green-300 shadow-inner overflow-x-auto">
                     <BlockMath math="s(t) = \int_{t_0}^{t} |\alpha '(t)| dt" />
                   </div>
 
                   <p>{t("learnBasics.explanations.arc_length.paragraph2.1")}</p>
 
-                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-green-300 shadow-inner">
+                  <div className="bg-white/[0.02] border border-white/5 p-6 rounded-2xl text-center text-green-300 shadow-inner overflow-x-auto">
                     <BlockMath math="|\alpha '(t)| = \sqrt{ (x'(t))^2 + (y'(t))^2 + (z'(t))^2 }" />
                   </div>
 
