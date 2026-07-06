@@ -198,24 +198,24 @@
   },
   "seo": {
     "home": {
-      "title": "GeoSim 3D - Simulador Interactivo de Geometría Diferencial",
+      "title": "ManifoldSim 3D - Simulador Interactivo de Geometría Diferencial",
       "description": "Visualice la geometría diferencial en 3D. Explore curvatura, torsión y superficies tridimensionales en tiempo real con nuestro simulador matemático en línea gratis."
     },
     "viewer": {
-      "title": "Simulador 3D - Superficies Paramétricas y Curvatura | GeoSim 3D",
+      "title": "Simulador 3D - Superficies Paramétricas y Curvatura | ManifoldSim 3D",
       "description": "Genere superficies paramétricas como toros, esferas y superficies de Enneper. Analice curvatura gaussiana, media y principal en tiempo real."
     },
     "learnBasics": {
-      "title": "Fundamentos de Geometría Diferencial - Centro de Aprendizaje | GeoSim 3D",
+      "title": "Fundamentos de Geometría Diferencial - Centro de Aprendizaje | ManifoldSim 3D",
       "description": "Aprenda los conceptos básicos de geometría diferencial. Descubra curvas parametrizadas, longitud de arco, curvatura, torsión y el marco de Frenet."
     },
     "learnAdvanced": {
-      "title": "Conceptos Avanzados de Geometría Diferencial | GeoSim 3D",
+      "title": "Conceptos Avanzados de Geometría Diferencial | ManifoldSim 3D",
       "description": "Profundice sus conocimientos en geodésicas, símbolos de Christoffel y el teorema de Gauss-Bonnet con visualizaciones interactivas en 3D."
     },
     "about": {
-      "title": "Sobre el Proyecto - GeoSim 3D",
-      "description": "Conozca la motivación, tecnologías utilizadas y el desarrollador detrás de GeoSim 3D, un simulador matemático interactivo."
+      "title": "Sobre el Proyecto - ManifoldSim 3D",
+      "description": "Conozca la motivación, tecnologías utilizadas y el desarrollador detrás de ManifoldSim 3D, un simulador matemático interactivo."
     }
   }
 }

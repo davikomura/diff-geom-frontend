@@ -32,7 +32,7 @@ export const Header = () => {
         to={langPrefix}
         className="flex items-center gap-2 text-xl font-black tracking-tight select-none cursor-pointer group"
       >
-        <span className="text-white group-hover:text-gray-300 transition-colors">GeoSim</span>
+        <span className="text-white group-hover:text-gray-300 transition-colors">ManifoldSim</span>
         <span className="h-4 w-[1px] bg-white/20" />
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 font-extrabold text-sm">
           3D

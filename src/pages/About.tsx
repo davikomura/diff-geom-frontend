@@ -12,10 +12,10 @@ export const About = () => {
       <meta name="description" content={t("seo.about.description")} />
       <meta property="og:title" content={t("seo.about.title")} />
       <meta property="og:description" content={t("seo.about.description")} />
-      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="og:image" content="/logo/ManifoldSim3d.png" />
       <meta property="twitter:title" content={t("seo.about.title")} />
       <meta property="twitter:description" content={t("seo.about.description")} />
-      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:image" content="/logo/ManifoldSim3d.png" />
 
       <main className="flex-1 flex items-center justify-center px-6 py-16 md:py-24 relative overflow-hidden">
         {/* Dynamic Glow Circles for modern high-tech visual feel */}

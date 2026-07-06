@@ -198,24 +198,24 @@
   },
   "seo": {
     "home": {
-      "title": "GeoSim 3D - Interactive Differential Geometry Simulator",
+      "title": "ManifoldSim 3D - Interactive Differential Geometry Simulator",
       "description": "Visualize differential geometry in 3D. Explore curvature, torsion, and 3D surfaces in real-time with our free online mathematics simulator."
     },
     "viewer": {
-      "title": "3D Simulator - Parametric Surfaces & Curvatures | GeoSim 3D",
+      "title": "3D Simulator - Parametric Surfaces & Curvatures | ManifoldSim 3D",
       "description": "Generate parametric surfaces like tori, spheres, and Enneper surfaces. Analyze Gaussian, mean, and principal curvatures in real-time."
     },
     "learnBasics": {
-      "title": "Learn Fundamentals - Differential Geometry | GeoSim 3D",
+      "title": "Learn Fundamentals - Differential Geometry | ManifoldSim 3D",
       "description": "Learn the basics of differential geometry. Discover parameterized curves, arc length, curvature, torsion, and the Frenet frame."
     },
     "learnAdvanced": {
-      "title": "Learn Advanced Concepts - Differential Geometry | GeoSim 3D",
+      "title": "Learn Advanced Concepts - Differential Geometry | ManifoldSim 3D",
       "description": "Deepen your knowledge of geodesics, Christoffel symbols, and the Gauss-Bonnet theorem with interactive visualizations."
     },
     "about": {
-      "title": "About the Project - GeoSim 3D",
-      "description": "Learn about the motivation, tech stack, and developer behind GeoSim 3D, an interactive mathematical visualization web application."
+      "title": "About the Project - ManifoldSim 3D",
+      "description": "Learn about the motivation, tech stack, and developer behind ManifoldSim 3D, an interactive mathematical visualization web application."
     }
   }
 }

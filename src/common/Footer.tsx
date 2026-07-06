@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="w-full bg-black border-t border-white/5 text-gray-500 text-sm">
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left text-xs text-gray-600">
-          © {new Date().getFullYear()} GeoSim 3D. {t("footer.developed")}{" "}
+          © {new Date().getFullYear()} ManifoldSim 3D. {t("footer.developed")}{" "}
           <a
             href="https://github.com/davikomura"
             target="_blank"

@@ -198,24 +198,24 @@
   },
   "seo": {
     "home": {
-      "title": "GeoSim 3D - Simulateur Interactif de Géométrie Différentielle",
+      "title": "ManifoldSim 3D - Simulateur Interactif de Géométrie Différentielle",
       "description": "Visualisez la géométrie différentielle en 3D. Explorez la courbure, la torsion et les surfaces 3D en temps réel avec notre simulateur mathématique en ligne."
     },
     "viewer": {
-      "title": "Simulateur 3D - Surfaces Paramétriques et Courbures | GeoSim 3D",
+      "title": "Simulateur 3D - Surfaces Paramétriques et Courbures | ManifoldSim 3D",
       "description": "Générez des surfaces paramétriques comme des tores, des sphères et des surfaces d'Enneper. Analysez les courbures gaussienne, moyenne et principales."
     },
     "learnBasics": {
-      "title": "Bases de la Géométrie Différentielle - Centre d'Apprentissage | GeoSim 3D",
+      "title": "Bases de la Géométrie Différentielle - Centre d'Apprentissage | ManifoldSim 3D",
       "description": "Apprenez les bases de la géométrie différentielle. Découvrez les courbes paramétrées, la longueur d'arc, la courbure, la torsion et le repère de Frenet."
     },
     "learnAdvanced": {
-      "title": "Concepts Avancés en Géométrie Différentielle | GeoSim 3D",
+      "title": "Concepts Avancés en Géométrie Différentielle | ManifoldSim 3D",
       "description": "Approfondissez vos connaissances sur les géodésiques, les symboles de Christoffel et le théorème de Gauss-Bonnet avec des visualisations interactives."
     },
     "about": {
-      "title": "À propos du Projet - GeoSim 3D",
-      "description": "Découvrez les motivations, les technologies et le développeur derrière GeoSim 3D, un outil interactif de visualisation mathématique."
+      "title": "À propos du Projet - ManifoldSim 3D",
+      "description": "Découvrez les motivations, les technologies et le développeur derrière ManifoldSim 3D, un outil interactif de visualisation mathématique."
     }
   }
 }

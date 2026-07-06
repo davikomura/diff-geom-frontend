@@ -4,237 +4,237 @@
 
   <!-- HOME PAGE -->
   <url>
-    <loc>https://geosim3d.vercel.app/pt</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt" />
+    <loc>https://manifoldsim.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/en</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt" />
+    <loc>https://manifoldsim.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/es</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt" />
+    <loc>https://manifoldsim.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/de</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt" />
+    <loc>https://manifoldsim.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/fr</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt" />
+    <loc>https://manifoldsim.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt" />
   </url>
 
   <!-- ABOUT -->
   <url>
-    <loc>https://geosim3d.vercel.app/pt/about</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/about" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/about" />
+    <loc>https://manifoldsim.com/pt/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/about" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/about" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/about" />
+    <loc>https://manifoldsim.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/about" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/es/about</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/about" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/about" />
+    <loc>https://manifoldsim.com/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/about" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/de/about</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/about" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/about" />
+    <loc>https://manifoldsim.com/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/about" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/fr/about</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/about" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/about" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/about" />
+    <loc>https://manifoldsim.com/fr/about</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/about" />
   </url>
 
   <!-- VIEWER -->
   <url>
-    <loc>https://geosim3d.vercel.app/pt/viewer</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/viewer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/viewer" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/viewer" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/viewer" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/viewer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/viewer" />
+    <loc>https://manifoldsim.com/pt/viewer</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/viewer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/viewer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/viewer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/viewer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/viewer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/viewer" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/en/viewer</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/viewer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/viewer" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/viewer" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/viewer" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/viewer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/viewer" />
+    <loc>https://manifoldsim.com/en/viewer</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/viewer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/viewer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/viewer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/viewer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/viewer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/viewer" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/es/viewer</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/viewer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/viewer" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/viewer" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/viewer" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/viewer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/viewer" />
+    <loc>https://manifoldsim.com/es/viewer</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/viewer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/viewer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/viewer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/viewer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/viewer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/viewer" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/de/viewer</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/viewer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/viewer" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/viewer" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/viewer" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/viewer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/viewer" />
+    <loc>https://manifoldsim.com/de/viewer</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/viewer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/viewer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/viewer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/viewer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/viewer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/viewer" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/fr/viewer</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/viewer" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/viewer" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/viewer" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/viewer" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/viewer" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/viewer" />
+    <loc>https://manifoldsim.com/fr/viewer</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/viewer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/viewer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/viewer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/viewer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/viewer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/viewer" />
   </url>
 
   <!-- LEARN BASICS -->
   <url>
-    <loc>https://geosim3d.vercel.app/pt/learn/basics</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/basics" />
+    <loc>https://manifoldsim.com/pt/learn/basics</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/basics" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/en/learn/basics</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/basics" />
+    <loc>https://manifoldsim.com/en/learn/basics</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/basics" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/es/learn/basics</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/basics" />
+    <loc>https://manifoldsim.com/es/learn/basics</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/basics" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/de/learn/basics</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/basics" />
+    <loc>https://manifoldsim.com/de/learn/basics</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/basics" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/fr/learn/basics</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/basics" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/basics" />
+    <loc>https://manifoldsim.com/fr/learn/basics</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/basics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/basics" />
   </url>
 
   <!-- LEARN ADVANCED -->
   <url>
-    <loc>https://geosim3d.vercel.app/pt/learn/advanced</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/advanced" />
+    <loc>https://manifoldsim.com/pt/learn/advanced</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/advanced" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/en/learn/advanced</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/advanced" />
+    <loc>https://manifoldsim.com/en/learn/advanced</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/advanced" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/es/learn/advanced</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/advanced" />
+    <loc>https://manifoldsim.com/es/learn/advanced</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/advanced" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/de/learn/advanced</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/advanced" />
+    <loc>https://manifoldsim.com/de/learn/advanced</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/advanced" />
   </url>
   <url>
-    <loc>https://geosim3d.vercel.app/fr/learn/advanced</loc>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://geosim3d.vercel.app/pt/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://geosim3d.vercel.app/en/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://geosim3d.vercel.app/es/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://geosim3d.vercel.app/de/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://geosim3d.vercel.app/fr/learn/advanced" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://geosim3d.vercel.app/pt/learn/advanced" />
+    <loc>https://manifoldsim.com/fr/learn/advanced</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://manifoldsim.com/pt/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://manifoldsim.com/en/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://manifoldsim.com/es/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://manifoldsim.com/de/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://manifoldsim.com/fr/learn/advanced" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manifoldsim.com/pt/learn/advanced" />
   </url>
 
 </urlset>

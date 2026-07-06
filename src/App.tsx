@@ -27,7 +27,7 @@ function App() {
   }, [lang, i18n, navigate]);
 
   // SEO: Dynamic Canonical and Alternate (hreflang) calculation
-  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://geosim3d.vercel.app';
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://manifoldsim.com';
   const pathParts = location.pathname.split('/').filter(Boolean);
   const hasLang = VALID_LANGUAGES.includes(pathParts[0]);
   const subPath = hasLang 

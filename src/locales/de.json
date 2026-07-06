@@ -198,24 +198,24 @@
   },
   "seo": {
     "home": {
-      "title": "GeoSim 3D - Interaktiver Simulator für Differentialgeometrie",
+      "title": "ManifoldSim 3D - Interaktiver Simulator für Differentialgeometrie",
       "description": "Visualisieren Sie Differentialgeometrie in 3D. Entdecken Sie Krümmung, Torsion und 3D-Flächen in Echtzeit mit unserem mathematischen Online-Simulator."
     },
     "viewer": {
-      "title": "3D-Simulator - Parametrische Flächen & Krümmung | GeoSim 3D",
+      "title": "3D-Simulator - Parametrische Flächen & Krümmung | ManifoldSim 3D",
       "description": "Generieren Sie parametrische Flächen wie Tori, Sphären und Enneper-Flächen. Analysieren Sie Gaußsche, mittlere und Hauptkrümmungen in Echtzeit."
     },
     "learnBasics": {
-      "title": "Lernzentrum Grundlagen - Differentialgeometrie | GeoSim 3D",
+      "title": "Lernzentrum Grundlagen - Differentialgeometrie | ManifoldSim 3D",
       "description": "Erfahren Sie die Grundlagen der Differentialgeometrie. Entdecken Sie parametrisierte Kurven, Bogenlänge, Krümmung, Torsion und das Frenet-Bezugssystem."
     },
     "learnAdvanced": {
-      "title": "Lernzentrum Fortgeschritten - Differentialgeometrie | GeoSim 3D",
+      "title": "Lernzentrum Fortgeschritten - Differentialgeometrie | ManifoldSim 3D",
       "description": "Vertiefen Sie Ihr Wissen über Geodätische, Christoffelsymbole und den Satz von Gauss-Bonnet mit interaktiven Visualisierungen."
     },
     "about": {
-      "title": "Über das Projekt - GeoSim 3D",
-      "description": "Lernen Sie die Motivation, die Technologien und den Entwickler hinter GeoSim 3D kennen, einem interaktiven Werkzeug zur mathematischen Visualisierung."
+      "title": "Über das Projekt - ManifoldSim 3D",
+      "description": "Lernen Sie die Motivation, die Technologien und den Entwickler hinter ManifoldSim 3D kennen, einem interaktiven Werkzeug zur mathematischen Visualisierung."
     }
   }
 }

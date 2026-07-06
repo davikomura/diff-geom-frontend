@@ -61,10 +61,10 @@ export const LearnBasics = () => {
       <meta name="description" content={t("seo.learnBasics.description")} />
       <meta property="og:title" content={t("seo.learnBasics.title")} />
       <meta property="og:description" content={t("seo.learnBasics.description")} />
-      <meta property="og:image" content="/logo/GeoSim3d.png" />
+      <meta property="og:image" content="/logo/ManifoldSim3d.png" />
       <meta property="twitter:title" content={t("seo.learnBasics.title")} />
       <meta property="twitter:description" content={t("seo.learnBasics.description")} />
-      <meta property="twitter:image" content="/logo/GeoSim3d.png" />
+      <meta property="twitter:image" content="/logo/ManifoldSim3d.png" />
 
       {/* Decorative background glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-red-500/5 rounded-full blur-[150px] pointer-events-none" />
